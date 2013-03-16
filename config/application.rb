@@ -64,5 +64,9 @@ module Reader
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.middleware.use Rack::Superfeedr, { :host => "caffo.fwd.wf", :login => "zenburn", :password => "arcana333"} do |superfeedr|
+        Superfeedr = superfeedr
+    end
   end
 end
