@@ -15,6 +15,9 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+# Doing this here to ensure we can use it in the Application class there.
+
+
 module Reader
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -65,8 +68,15 @@ module Reader
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
-    config.middleware.use Rack::Superfeedr, { :host => "caffo.fwd.wf", :login => "zenburn", :password => "arcana333"} do |superfeedr|
+    # Doing this instead of a initializer so we can use it to configure the middleware
+    # in the next code block
+    Configuration = YAML.load_file(Rails.root.join('config', 'config.yml'))
+    
+    config.middleware.use Rack::Superfeedr, { :host => Configuration["general"]["hostname"], :login => Configuration["superfeedr"]["username"], :password => Configuration["superfeedr"]["password"]} do |superfeedr|
         Superfeedr = superfeedr
+        superfeedr.on_notification do |notification|
+            Article.create_from_notification(notification)
+        end
     end
   end
 end

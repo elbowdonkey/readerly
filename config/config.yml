@@ -1,0 +1,10 @@
+general:
+  hostname: caffo.fwd.wf
+
+superfeedr:
+  username: zenburn
+  password: arcana333
+
+feeds:
+   - http://push-pub.appspot.com/feed
+   - http://feeds.boingboing.net/boingboing/iBag
