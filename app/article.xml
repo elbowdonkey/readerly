@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <status xmlns="http://superfeedr.com/xmpp-pubsub-ext" feed="http://push-pub.appspot.com/feed">
+    <http code="200">Fetched (ping) 200 and parsed 1/20 entries</http>
+    <next_fetch>2013-03-18T00:52:26Z</next_fetch>
+    <entries_count_since_last_maintenance>7</entries_count_since_last_maintenance>
+    <period>181</period>
+    <last_fetch>2013-03-18T00:49:25Z</last_fetch>
+    <last_parse>2013-03-18T00:49:25Z</last_parse>
+    <last_maintenance_at>2013-03-17T17:07:43Z</last_maintenance_at>
+    <title>Publisher example</title>
+    <id>http://push-pub.appspot.com/feed</id>
+    <updated>2013-03-18T00:49:24Z</updated>
+    <link title="Publisher example" rel="self" href="http://push-pub.appspot.com/feed" type="application/atom+xml"/>
+    <link title="" rel="hub" href="http://pubsubhubbub.superfeedr.com" type="text/html"/>
+    <title>Publisher example</title>
+    <id>http://push-pub.appspot.com/feed</id>
+    <updated>2013-03-18T00:49:24Z</updated>
+    <link title="Publisher example" rel="self" href="http://push-pub.appspot.com/feed" type="application/atom+xml"/>
+    <link title="" rel="hub" href="http://pubsubhubbub.superfeedr.com" type="text/html"/>
+    <title>Publisher example</title>
+    <id>http://push-pub.appspot.com/feed</id>
+    <updated>2013-03-18T00:49:24Z</updated>
+    <link title="Publisher example" rel="self" href="http://push-pub.appspot.com/feed" type="application/atom+xml"/>
+    <link title="" rel="hub" href="http://pubsubhubbub.superfeedr.com" type="text/html"/>
+    <title>Publisher example</title>
+    <id>http://push-pub.appspot.com/feed</id>
+    <updated>2013-03-18T00:49:24Z</updated>
+    <link title="Publisher example" rel="self" href="http://push-pub.appspot.com/feed" type="application/atom+xml"/>
+    <link title="" rel="hub" href="http://pubsubhubbub.superfeedr.com" type="text/html"/>
+    <title>Publisher example</title>
+    <id>http://push-pub.appspot.com/feed</id>
+    <updated>2013-03-18T00:49:24Z</updated>
+    <link title="Publisher example" rel="self" href="http://push-pub.appspot.com/feed" type="application/atom+xml"/>
+    <link title="" rel="hub" href="http://pubsubhubbub.superfeedr.com" type="text/html"/>
+  </status>
+  <link title="Publisher example" rel="self" href="http://push-pub.appspot.com/feed" type="application/atom+xml"/>
+  <link title="" rel="hub" href="http://pubsubhubbub.superfeedr.com" type="text/html"/>
+  <title>Publisher example</title>
+  <updated>2013-03-18T00:49:24Z</updated>
+  <id>http://push-pub.appspot.com/feed</id>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://push-pub.appspot.com/feed/703002</id>
+    <published>2013-03-18T00:49:24Z</published>
+    <updated>2013-03-18T00:49:24Z</updated>
+    <title>1</title>
+    <content type="text">77777777777777</content>
+    <link title="1" rel="alternate" href="http://push-pub.appspot.com/entry/703002" type="text/html"/>
+  </entry>
+</feed>
+
