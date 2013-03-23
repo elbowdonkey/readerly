@@ -23,10 +23,34 @@ describe Article do
   it { should respond_to(:link) }
 
   context 'when validating' do
-    it 'is invalid without being associated with a feed'
-    it 'is invalid without a title'
-    it 'is invalid without a published date'
-    it 'is invalid without content'
-    it 'is invalid without a link'
+    it 'is invalid without being associated with a feed' do
+      article = build(:article, :feed_id => nil)
+      article.should_not be_valid
+      article.should have(1).error_on(:feed_id)
+    end
+
+    it 'is invalid without a title' do
+      article = build(:article, :title => nil)
+      article.should_not be_valid
+      article.should have(1).error_on(:title)
+    end
+
+    it 'is invalid without a published date' do
+      article = build(:article, :published_at => nil)
+      article.should_not be_valid
+      article.should have(1).error_on(:published_at)
+    end
+
+    it 'is invalid without content' do
+      article = build(:article, :content => nil)
+      article.should_not be_valid
+      article.should have(1).error_on(:content)
+    end
+
+    it 'is invalid without a link' do
+      article = build(:article, :link => nil)
+      article.should_not be_valid
+      article.should have(1).error_on(:link)
+    end
   end
 end
