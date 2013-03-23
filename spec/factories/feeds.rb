@@ -2,5 +2,7 @@
 
 FactoryGirl.define do
   factory :feed do
+    name "Lorem Ipsum Dolor"
+    url "http://foo.bar/"
   end
 end

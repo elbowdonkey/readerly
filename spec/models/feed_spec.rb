@@ -17,7 +17,16 @@ describe Feed do
   it { should respond_to(:url) }
 
   context 'when validating' do
-    it 'is invalid without a name'
-    it 'is invalid without a url'
+    it 'is invalid without a name' do
+      feed = build(:feed, :name => nil)
+      feed.should_not be_valid
+      feed.should have(1).error_on(:name)
+    end
+    
+    it 'is invalid without a url' do
+      feed = build(:feed, :url => nil)
+      feed.should_not be_valid
+      feed.should have(1).error_on(:url)
+    end
   end
 end
