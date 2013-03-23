@@ -13,7 +13,7 @@
 #
 
 class Article < ActiveRecord::Base
-  attr_accessible :content, :feed_id, :link, :published_at, :title
+  attr_accessible :content, :feed_id, :link, :published_at, :title, :notification
   
   validates :feed_id,        :presence => true
   validates :title,          :presence => true
@@ -32,10 +32,15 @@ class Article < ActiveRecord::Base
       article.published_at = notification.pub_date
       article.content      = notification.content
       article.link         = notification.link
-      article.save
+      article.notification = n.document.to_s
+      binding.pry unless article.save
       return article
     else
       return false
     end
+  end
+
+  def raw_data
+    Nokogiri::XML(self.notification)
   end
 end
