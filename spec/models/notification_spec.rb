@@ -60,4 +60,15 @@ describe Notification do
       @notification.feed_name.should be_nil
     end
   end
+
+  context ".feed_url" do
+    it "should return the article's feed url" do
+      @notification.feed_url == "http://pubsubhubbub.superfeedr.com"
+    end
+
+    it "should return nil if no feed url is found" do
+      @notification = Notification.new([])
+      @notification.feed_url.should be_nil
+    end
+  end
 end

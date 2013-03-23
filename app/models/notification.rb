@@ -15,6 +15,10 @@ class Notification
   def feed_name
     @content.css("title").children.first.to_s rescue nil
   end
+  
+  def feed_url
+     @content.css("link")[1].attr("href") rescue nil
+  end
 
   def content
     @content.css("content").children.first.to_s rescue nil
