@@ -21,12 +21,13 @@ class Article < ActiveRecord::Base
   validates :content,        :presence => true
   validates :link,           :presence => true
 
-  def create_from_notification(n)
+  def self.create_from_notification(n)
+    notification = Notification.new(n)    
+    # title     = Notification.title(n)
     # create_or_link_to_feed
     # feed name = n.css("title").children.first.to_s
     # title     = n.css("entry").css("title").children.to_s
-    
-    title     = Notification.title(n)
+       
     
     # pub_date  = n.css("published").children.first.to_s
     # content   = n.css("content").children.first.to_s
