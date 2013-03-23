@@ -21,8 +21,21 @@ class Article < ActiveRecord::Base
   validates :content,        :presence => true
   validates :link,           :presence => true
 
+  belongs_to :feed
+
   def self.create_from_notification(n)
     notification = Notification.new(n)
-    # create_or_link_to_feed
+    if Article.where(:link => notification.link).empty?
+      article              = Article.new
+      article.feed         = Feed.find_or_create_by_name_and_url(notification.feed_name, notification.feed_url)
+      article.title        = notification.title
+      article.published_at = notification.pub_date
+      article.content      = notification.content
+      article.link         = notification.link
+      article.save
+      return article
+    else
+      return false
+    end
   end
 end
