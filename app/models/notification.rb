@@ -5,7 +5,7 @@ class Notification
   end
 
   def title
-    @content.css("entry").css("title").children.to_s rescue nil
+    @content.css("entry").css("title").children.first.to_s rescue nil
   end
 
   def link
@@ -17,11 +17,13 @@ class Notification
   end
   
   def feed_url
-     @content.css("link")[1].attr("href") rescue nil
+     @content.css("link[type='text/html']").first.attr("href") rescue nil
   end
 
   def content
-    @content.css("content").children.first.to_s rescue nil
+    content = @content.css("content").children.first.to_s rescue nil
+    content = self.title if content.blank?
+    return content
   end
 
   def pub_date
