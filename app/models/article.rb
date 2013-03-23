@@ -22,15 +22,7 @@ class Article < ActiveRecord::Base
   validates :link,           :presence => true
 
   def self.create_from_notification(n)
-    notification = Notification.new(n)    
-    # title     = Notification.title(n)
+    notification = Notification.new(n)
     # create_or_link_to_feed
-    # feed name = n.css("title").children.first.to_s
-    # title     = n.css("entry").css("title").children.to_s
-       
-    
-    # pub_date  = n.css("published").children.first.to_s
-    # content   = n.css("content").children.first.to_s
-    # link      = n.css("link").last.attr("href")
   end
 end
