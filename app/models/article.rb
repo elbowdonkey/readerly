@@ -43,4 +43,8 @@ class Article < ActiveRecord::Base
   def raw_data
     Nokogiri::XML(self.notification)
   end
+
+  def read!
+    self.update_attribute(:read, 1)
+  end
 end

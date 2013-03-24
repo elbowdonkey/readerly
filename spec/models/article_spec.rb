@@ -96,4 +96,15 @@ describe Article do
       Article.create_from_notification(@notification).should be_false
     end
   end
+
+  context ".read!" do
+    it "should mark an article as read" do
+      article = create(:article)
+      article.read.should be_false
+      article.read!
+      article.read.should be_true
+    end
+
+  end
+
 end

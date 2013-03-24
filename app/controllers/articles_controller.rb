@@ -10,7 +10,11 @@ class ArticlesController < ApplicationController
   # end
 
   def index
-    @articles = Article.all
+    @articles = Article.where(:read => nil).order("published_at ASC")
+  end
+
+  def read
+    render :json => Article.find(params[:id]).read!
   end
 
   def subscribe
