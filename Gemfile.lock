@@ -37,6 +37,9 @@ GEM
       erubis (>= 2.6.6)
     binding_of_caller (0.7.1)
       debug_inspector (>= 0.0.1)
+    bourbon (3.1.1)
+      sass (>= 3.2.0)
+      thor
     builder (3.0.4)
     capybara (2.0.2)
       mime-types (>= 1.16)
@@ -95,6 +98,7 @@ GEM
     haml (4.0.0)
       tilt
     hike (1.2.1)
+    htmlentities (4.3.1)
     http_parser.rb (0.5.3)
     i18n (0.6.4)
     journey (1.0.4)
@@ -125,6 +129,9 @@ GEM
     method_source (0.8.1)
     mime-types (1.21)
     multi_json (1.7.0)
+    neat (1.2.0)
+      bourbon (>= 2.1)
+      sass (>= 3.2)
     nokogiri (1.5.6)
     polyglot (0.3.3)
     pry (0.9.12)
@@ -253,10 +260,12 @@ DEPENDENCIES
   faker
   guard-livereload
   guard-rspec
+  htmlentities
   jquery-rails
   launchy
   mailcatcher
   meta_request
+  neat
   pry
   pry-nav
   pry-rails
