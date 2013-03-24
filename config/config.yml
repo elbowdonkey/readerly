@@ -1,5 +1,7 @@
 general:
   hostname: caffo.fwd.wf
+  username: foo
+  password: bar
 
 superfeedr:
   username: zenburn
