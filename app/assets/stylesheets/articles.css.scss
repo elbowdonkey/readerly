@@ -2,20 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import "bourbon";
-@import "neat";
-
 body {
   background-color: #FCFCFB;
 }
 
-div.container {
+.container {
   @include outer-container;
 }
 
 article {
-  @include span-columns(9);
-  @include shift(2);
+  @include fill-parent;
 
   font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
   font-weight: 400;
@@ -57,9 +53,9 @@ a {
 
 .seen {
   a, p {
-    color: #666;  
+    color: #666;
 }
  img {
-   -webkit-filter: grayscale(100%);  
- } 
+   -webkit-filter: grayscale(100%);
+ }
 }
