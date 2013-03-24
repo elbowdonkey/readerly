@@ -48,3 +48,8 @@ group :development do
   gem 'meta_request'
   gem 'annotate', ">=2.5.0"
 end
+
+group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
+  gem 'pg'
+end
