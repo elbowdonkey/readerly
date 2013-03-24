@@ -13,3 +13,14 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# OSX crap file
+.DS_Store
+
+# Simplecov static HTML
+/coverage/
+
+# RSpec + Capy artifacts
+capybara-*.html
+.rspec
+/spec/tmp/*
