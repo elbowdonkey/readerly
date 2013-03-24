@@ -2,7 +2,17 @@
 
 FactoryGirl.define do
   factory :feed do
-    name "Lorem Ipsum Dolor"
+    name { Faker::Lorem.sentence }
     url "http://foo.bar/"
+
+    factory :feed_with_articles do
+      ignore do
+        articles_count 5
+      end
+
+      after(:create) do |feed, evaluator|
+        FactoryGirl.create_list(:article, evaluator.articles_count, feed: feed)
+      end
+    end
   end
 end
