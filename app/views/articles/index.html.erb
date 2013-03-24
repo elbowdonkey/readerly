@@ -3,8 +3,9 @@
 
 Mousetrap.bind('space', function(){ 
   if ($("article").not(".read").size() > 1 ){
-    if ($("article.read").size() == 1) {
-      humane.log("Press ⌘ + space to get back to last one")
+    if ($("article.read").size() == 1 && (typeof window.done_helping === "undefined") ) {
+      humane.log("Press ⌘ + space to get back to last one");
+      window.done_helping = true;
     }
     $("article").not(".read").first().hide();  
     $("article").not(".read").first().addClass("seen");
