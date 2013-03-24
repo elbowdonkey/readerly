@@ -21,24 +21,29 @@ article {
   padding-top: 20px;
 }
 
-aside {
-  font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-  font-weight: 700;
+aside {  
   border-bottom: 1px solid #dededc;
   padding-bottom: 12px;
   color: #b3b3b1;
-  font-size: 12px;
   margin-bottom: 21px;
   text-transform:uppercase;
   margin-top: 40px;
+  font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  a {
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+  }
 }
 
 h2 {
-  font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.1;
-  margin-bottom: 40px;
+font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+font-weight: 700;
+font-size: 50px;
+line-height: 1.1;
+margin-bottom: 40px;
 }
 
 h3 {
