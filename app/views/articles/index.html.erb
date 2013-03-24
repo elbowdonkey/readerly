@@ -1,0 +1,27 @@
+<%= render @articles %>
+<script>
+
+Mousetrap.bind('space', function(){ 
+  if ($("article").not(".read").size() > 1 ){
+    if ($("article.read").size() == 1) {
+      humane.log("Press ⌘ + space to get back to last one")
+    }
+    $("article").not(".read").first().hide();  
+    $("article").not(".read").first().addClass("seen");
+    $("article").not(".read").first().addClass("read");
+    $("article").not(".read").first().show();    
+  }
+});
+
+Mousetrap.bind('command+space', function(){
+ $("article").not(".read").first().hide(); 
+ $("article.read").last().removeClass("read");
+ $("article").not(".read").first().show();
+});
+
+$(function() {
+  $("article").hide();
+  $("article").first().show();
+  humane.log("Press space to see the next article");
+});
+</script>
