@@ -5,7 +5,7 @@ class Notification
   end
 
   # article related 
-  
+
   # TODO - deal with notifications that have more than one entry
   def title
     @content.css("entry").first.css("title").children.first.to_s rescue nil
@@ -17,6 +17,7 @@ class Notification
 
   def content
     content = @content.css("entry").first.css("content").children.first.to_s rescue nil
+    content = @content.css("entry").css("summary").first.children.first.to_s if content.blank? rescue nil
     content = self.title if content.blank?
     return content
   end
