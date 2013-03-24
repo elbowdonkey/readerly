@@ -33,7 +33,6 @@ class Article < ActiveRecord::Base
       article.content      = notification.content
       article.link         = notification.link
       article.notification = n.document.to_s
-      binding.pry unless article.save
       return article
     else
       return false
