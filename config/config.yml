@@ -1,22 +1,33 @@
 general:
-  hostname: caffo.fwd.wf
-  username: foo
-  password: bar
+  hostname: caffo-reader.herokuapp.com
+  username: caffo
+  password: caffocaffo21
 
 superfeedr:
   username: zenburn
   password: arcana333
 
 feeds:
-   - http://push-pub.appspot.com/feed
-   - http://feeds.boingboing.net/boingboing/iBag
-   - http://feeds.gawker.com/lifehacker/full
-   - http://www.polygon.com/rss/index.xml
-   - http://www.theverge.com/rss/index.xml
-   - http://rss.slashdot.org/Slashdot/slashdot
-   - http://feeds.gawker.com/kotaku/full
-   - http://feeds.gawker.com/gizmodo/full
-   - http://feeds.gawker.com/io9/full
-   - http://wow.joystiq.com/feeds/
-   - http://feeds.mashable.com/Mashable
-   - https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=gersom
+  - http://www.flickr.com/photos/factoryjoe/
+  - http://chneukirchen.org/trivium/index.atom
+  - http://feeds.feedburner.com/ToboldsBlog
+  - http://tinysubversions.com/feed/
+  - http://usesthis.com/feed/
+  - http://tagn.wordpress.com/feed/
+  - http://tabletitans.com/feed
+  - http://www.rockpapershotgun.com/feed/
+  - http://www.rockpapershotgun.com/feed/
+  - http://www.postsecret.com/feeds/posts/default?alt=rss
+  - http://randomshopper.tumblr.com/rss
+  - http://pessoal.zehfernando.com/feed/
+  - http://onethingwell.org/rss
+  - http://objetosdedesejo.com/feed/
+  - http://www.marco.org/rss
+  - http://minimalmac.com/rss
+  - http://gostosa.tumblr.com/rss
+  - http://blog.instapaper.com/rss
+  - http://dragonchasers.com/feed/
+  - http://daringfireball.net/index.xml
+  - http://feeds.feedburner.com/blogdoiphone/posts/
+  - http://beautifulpixels.com/feed/
+  - http://feeds.feedburner.com/AppSites

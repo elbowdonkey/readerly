@@ -1,0 +1,22 @@
+general:
+  hostname: caffo.fwd.wf
+  username: foo
+  password: bar
+
+superfeedr:
+  username: zenburn
+  password: arcana333
+
+feeds:
+   - http://push-pub.appspot.com/feed
+   - http://feeds.boingboing.net/boingboing/iBag
+   - http://feeds.gawker.com/lifehacker/full
+   - http://www.polygon.com/rss/index.xml
+   - http://www.theverge.com/rss/index.xml
+   - http://rss.slashdot.org/Slashdot/slashdot
+   - http://feeds.gawker.com/kotaku/full
+   - http://feeds.gawker.com/gizmodo/full
+   - http://feeds.gawker.com/io9/full
+   - http://wow.joystiq.com/feeds/
+   - http://feeds.mashable.com/Mashable
+   - https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=gersom
