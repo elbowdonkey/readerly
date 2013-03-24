@@ -9,7 +9,7 @@ class ArticlesController < ApplicationController
   # end
 
   def index
-    render :nothing => true
+    @articles = Article.all
   end
 
   def subscribe
