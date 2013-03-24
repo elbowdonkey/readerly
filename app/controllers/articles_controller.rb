@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_filter :authenticate
+  before_filter :authenticate, :except => [:subscribe]
   
   # Make sure you run this in the console while the app is available 
   # thru your fwd.fw account. If you don't want to do it, generate 
