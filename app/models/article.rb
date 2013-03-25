@@ -34,6 +34,10 @@ class Article < ActiveRecord::Base
       article.link         = notification.link
       article.notification = n.document.to_s
       article.save!
+      return article
+    else
+      return false
+    end
   end
 
   def raw_data
