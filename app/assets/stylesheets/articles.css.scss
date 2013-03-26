@@ -14,15 +14,12 @@ body {
 article {
   @include fill-parent;
 
-  font-family: "Merriweather",Georgia,Cambria,"Times New Roman",Times,serif;
-  font-weight: 400;
-  font-size: 26px;
-  padding-bottom: 20px;
+  padding-bottom: 27px;
   padding-top: 20px;
   border-bottom: 1px solid #dededc;
 }
 
-aside {  
+aside {
   border-bottom: 1px solid #dededc;
   padding-bottom: 12px;
   color: #b3b3b1;
@@ -40,11 +37,11 @@ aside {
 }
 
 h2 {
-font-family: "Merriweather",Georgia,Cambria,"Times New Roman",Times,serif;
-font-weight: 900;
-font-size: 50px;
-line-height: 1.1;
-margin-bottom: 40px;
+  font-family: "Merriweather",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -66,4 +63,11 @@ a {
   img {
     -webkit-filter: grayscale(100%);
   }
+}
+
+.body {
+  font-family: "Merriweather",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.618;
 }

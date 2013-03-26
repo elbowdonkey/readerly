@@ -3,7 +3,7 @@
     <%= link_to article.feed.name, article.feed.url %>
   </aside>
   <h2><%= link_to article.title, article.link %></h2>
-  <section>
+  <div class="body">
     <%= raw(HTMLEntities.new.decode(article.content)) %>
-  </section>  
+  </div>
 </article>
