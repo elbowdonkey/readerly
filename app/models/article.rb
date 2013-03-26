@@ -13,13 +13,13 @@
 #
 
 class Article < ActiveRecord::Base
-  attr_accessible :content, :feed_id, :link, :published_at, :title, :notification
-  
-  validates :feed_id,        :presence => true
-  validates :title,          :presence => true
-  validates :published_at,   :presence => true
-  validates :content,        :presence => true
-  validates :link,           :presence => true
+  attr_accessible             :content, :feed_id, :link, :published_at, :title, :notification
+
+  validates :feed_id,         :presence => true
+  validates :title,           :presence => true
+  validates :published_at,    :presence => true
+  validates :content,         :presence => true
+  validates :link,            :presence => true
 
   belongs_to :feed
 

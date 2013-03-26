@@ -4,7 +4,7 @@ class Notification
     @content = n
   end
 
-  # article related 
+  # article related
 
   # TODO - deal with notifications that have more than one entry
   def title
@@ -26,12 +26,12 @@ class Notification
     Date.parse(@content.css("entry").first.css("published").children.first.to_s) rescue nil
   end
 
-  # feed related 
+  # feed related
   def feed_name
     @content.css("title").children.first.to_s rescue nil
   end
-  
+
   def feed_url
-     @content.css("link[type='text/html']").first.attr("href") rescue nil
+    @content.css("link[type='text/html']").first.attr("href") rescue nil
   end
 end
