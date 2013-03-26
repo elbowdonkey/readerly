@@ -4,7 +4,6 @@
 
 body {
   background-color: #FCFCFB;
-  // background-color: #F8F7F1;
 }
 
 .container {
@@ -26,18 +25,18 @@ aside {
   margin-bottom: 21px;
   text-transform:uppercase;
   margin-top: 40px;
-  font-family: "Source Sans Pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: $title-font-family;
   font-weight: 700;
   font-size: 14px;
   a {
-    font-family: "Source Sans Pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    font-family: $title-font-family;
     font-weight: 700;
     font-size: 12px;
   }
 }
 
 h2 {
-  font-family: "Merriweather",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-family: $body-font-family;
   font-weight: 900;
   font-size: 50px;
   line-height: 1.1;
@@ -45,7 +44,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Merriweather",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-family: $body-font-family;
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 2px;
@@ -66,7 +65,7 @@ a {
 }
 
 .body {
-  font-family: "Merriweather",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-family: $body-font-family;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.618;
