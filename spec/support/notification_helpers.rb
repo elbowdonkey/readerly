@@ -1,8 +1,8 @@
 module NotificationHelpers
   def load_notification
-    file              = File.open(File.join(Rails.root, "spec", "fixtures", "article.xml"), "r")
-    raw_notification  = file.read
-    @document         = Nokogiri::XML(raw_notification)
-    @notification     = Notification.new(@document)
+    file                = File.open(File.join(Rails.root, "spec", "fixtures", "multiple_2.xml"), "r")
+    xml_string          = file.read
+    @raw_notification   = Nokogiri::XML(xml_string)
+    @notification       = Notification.new(@raw_notification)
   end
 end

@@ -23,20 +23,22 @@ class Article < ActiveRecord::Base
 
   belongs_to :feed
 
-  def self.create_from_notification(n)
-    notification = Notification.new(n)
-    if Article.where(:link => notification.link).empty?
-      article              = Article.new
-      article.feed         = Feed.find_or_create_by_name_and_url(notification.feed_name, notification.feed_url)
-      article.title        = notification.title
-      article.published_at = notification.pub_date
-      article.content      = notification.content
-      article.link         = notification.link
-      article.notification = n.document.to_s
-      article.save!
-      return article
-    else
-      return false
+  def self.create_from_raw_notification(raw_notification)
+    raw_notification.css('entry').each do |entry|
+      notification = Notification.new(entry)
+      if Article.where(:link => notification.link).empty?
+        article              = Article.new
+        article.feed         = Feed.find_or_create_by_name_and_url(notification.feed_name, notification.feed_url)
+        article.title        = notification.title
+        article.published_at = notification.pub_date
+        article.content      = notification.content
+        article.link         = notification.link
+        article.notification = raw_notification.document.to_s
+        article.save
+        return article
+      else
+        return false
+      end
     end
   end
 

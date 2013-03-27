@@ -75,7 +75,7 @@ module Reader
     config.middleware.use Rack::Superfeedr, { :host => Configuration["general"]["hostname"], :login => Configuration["superfeedr"]["username"], :password => Configuration["superfeedr"]["password"]} do |superfeedr|
       Superfeedr = superfeedr
       superfeedr.on_notification do |notification|
-        Article.create_from_notification(notification)
+        Article.create_from_raw_notification(notification)
       end
     end
   end

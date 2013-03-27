@@ -58,40 +58,40 @@ describe Article do
     end
   end
 
-  context "#create_from_notification" do
+  context "#create_from_raw_notification" do
     it "should return a valid article" do
-      article = Article.create_from_notification(@document)
+      article = Article.create_from_raw_notification(@raw_notification)
       article.should be_an_instance_of(Article)
     end
 
     it "should belongs to a feed" do
-      article = Article.create_from_notification(@document)
+      article = Article.create_from_raw_notification(@raw_notification)
       article.feed.should be_an_instance_of(Feed)
     end
 
     it "should have the right title" do
-      article = Article.create_from_notification(@document)
+      article = Article.create_from_raw_notification(@raw_notification)
       article.title == "1"
     end
 
     it "should have the right published_at date" do
-      article = Article.create_from_notification(@document)
+      article = Article.create_from_raw_notification(@raw_notification)
       article.published_at == Date.parse("2013-03-18T00:49:24Z")
     end
 
     it "should have the right content" do
-      article = Article.create_from_notification(@document)
+      article = Article.create_from_raw_notification(@raw_notification)
       article.content  == "77777777777777"
     end
 
     it "should have the right link" do
-      article = Article.create_from_notification(@document)
+      article = Article.create_from_raw_notification(@raw_notification)
       article.content  ==  "http://push-pub.appspot.com/entry/703002"
     end
 
     it "should not create duplicate entries" do
       article = create(:article, :link => "http://push-pub.appspot.com/entry/703002")
-      Article.create_from_notification(@document).should be_false
+      Article.create_from_raw_notification(@raw_notification).should be_false
     end
   end
 
