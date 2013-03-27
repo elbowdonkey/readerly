@@ -64,29 +64,30 @@ describe Article do
       article.should be_an_instance_of(Article)
     end
 
-    it "should belongs to a feed" do
+    it "should belong to a feed" do
       article = Article.create_from_raw_notification(@raw_notification)
       article.feed.should be_an_instance_of(Feed)
     end
 
     it "should have the right title" do
       article = Article.create_from_raw_notification(@raw_notification)
-      article.title == "1"
+      article.title.should eq("1")
     end
 
     it "should have the right published_at date" do
       article = Article.create_from_raw_notification(@raw_notification)
-      article.published_at == Date.parse("2013-03-18T00:49:24Z")
+      article.published_at.should eq(Date.parse("2013-03-18T00:49:24Z"))
     end
 
     it "should have the right content" do
       article = Article.create_from_raw_notification(@raw_notification)
-      article.content == "77777777777777"
+      binding.pry
+      article.content.should eq("77777777777777")
     end
 
     it "should have the right link" do
       article = Article.create_from_raw_notification(@raw_notification)
-      article.content == "http://push-pub.appspot.com/entry/703002"
+      article.content.should eq("http://push-pub.appspot.com/entry/703002")
     end
 
     it "should not create duplicate entries" do
