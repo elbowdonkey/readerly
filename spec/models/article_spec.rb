@@ -81,12 +81,12 @@ describe Article do
 
     it "should have the right content" do
       article = Article.create_from_raw_notification(@raw_notification)
-      article.content  == "77777777777777"
+      article.content == "77777777777777"
     end
 
     it "should have the right link" do
       article = Article.create_from_raw_notification(@raw_notification)
-      article.content  ==  "http://push-pub.appspot.com/entry/703002"
+      article.content == "http://push-pub.appspot.com/entry/703002"
     end
 
     it "should not create duplicate entries" do
