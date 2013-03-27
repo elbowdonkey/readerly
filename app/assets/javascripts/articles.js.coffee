@@ -4,7 +4,8 @@
 
 $ ->
   $("article").hide()
-  humane.log "Press 'k' to see the next article"
+  if $("article").not(".read").size() > 1
+    humane.log "Press 'k' to see the next article"
   window.scrollPosition = 0
 
 $(window).load ->
