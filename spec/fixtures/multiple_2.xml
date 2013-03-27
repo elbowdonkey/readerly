@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <status xmlns="http://superfeedr.com/xmpp-pubsub-ext" feed="http://www.reddit.com/r/all/new/.rss">
+    <http code="200">Fetched (ring) 200 and parsed 25/25 entries</http>
+    <next_fetch>2013-03-23T22:59:35Z</next_fetch>
+    <entries_count_since_last_maintenance>25</entries_count_since_last_maintenance>
+    <period>900</period>
+    <last_fetch>2013-03-23T22:44:35Z</last_fetch>
+    <last_parse>2013-03-23T22:44:35Z</last_parse>
+    <last_maintenance_at>2013-03-23T22:32:33Z</last_maintenance_at>
+  </status>
+  <link title="all subreddits" rel="alternate" href="http://www.reddit.com/r/all/" type="text/html"/>
+  <link title="all subreddits" rel="image" href="http://www.reddit.com/reddit.com.header.png" type="image/png"/>
+  <link title="all subreddits" rel="self" href="http://www.reddit.com/r/all/new/.rss" type="application/rss+xml"/>
+  <title>all subreddits</title>
+  <updated>2013-03-23T22:44:20Z</updated>
+  <id>all-subreddits-2013-03-23t22-44-20z</id>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/</id>
+    <published>2013-03-23T22:44:20Z</published>
+    <updated>2013-03-23T22:44:20Z</updated>
+    <title>Dat tongue</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/"&gt;&lt;img src="http://c.thumbs.redditmedia.com/uuAjaNid76YXrTIh.jpg" alt="Dat tongue" title="Dat tongue" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/adelaide22"&gt; adelaide22 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/aww/"&gt; aww&lt;/a&gt; &lt;br/&gt; &lt;a href="http://imgur.com/m6FanWF"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Dat tongue" rel="alternate" href="http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/" type="text/html"/>
+    <link title="Dat tongue" rel="thumbnail" href="http://c.thumbs.redditmedia.com/uuAjaNid76YXrTIh.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/</id>
+    <published>2013-03-23T22:44:20Z</published>
+    <updated>2013-03-23T22:44:20Z</updated>
+    <title>Justin Abdelkader's hat trick helps Detroit stop Ducks</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/"&gt;&lt;img src="http://f.thumbs.redditmedia.com/31aG9QX8_TBVaNSM.jpg" alt="Justin Abdelkader's hat trick helps Detroit stop Ducks" title="Justin Abdelkader's hat trick helps Detroit stop Ducks" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/robert32907"&gt; robert32907 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/nhl/"&gt; nhl&lt;/a&gt; &lt;br/&gt; &lt;a href="http://espn.go.com/nhl/recap?gameId=400442929#.UU4wMbqHNAw.reddit"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Justin Abdelkader's hat trick helps Detroit stop Ducks" rel="alternate" href="http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/" type="text/html"/>
+    <link title="Justin Abdelkader's hat trick helps Detroit stop Ducks" rel="thumbnail" href="http://f.thumbs.redditmedia.com/31aG9QX8_TBVaNSM.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/</id>
+    <published>2013-03-23T22:44:16Z</published>
+    <updated>2013-03-23T22:44:16Z</updated>
+    <title>Southern Ontario, 12th floor of a 3 year old building, 2-3mm long</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/"&gt;&lt;img src="http://f.thumbs.redditmedia.com/rhzUXj-t6YupHR1A.jpg" alt="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" title="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/REDlTOR"&gt; REDlTOR &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/whatsthisbug/"&gt; whatsthisbug&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/lS3Pl3Q.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" rel="alternate" href="http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/" type="text/html"/>
+    <link title="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" rel="thumbnail" href="http://f.thumbs.redditmedia.com/rhzUXj-t6YupHR1A.jpg" type="image/jpeg"/>
+  </entry>
+</feed>

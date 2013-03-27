@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <status xmlns="http://superfeedr.com/xmpp-pubsub-ext" feed="http://www.reddit.com/r/all/new/.rss">
+    <http code="200">Fetched (ring) 200 and parsed 25/25 entries</http>
+    <next_fetch>2013-03-23T22:59:35Z</next_fetch>
+    <entries_count_since_last_maintenance>25</entries_count_since_last_maintenance>
+    <period>900</period>
+    <last_fetch>2013-03-23T22:44:35Z</last_fetch>
+    <last_parse>2013-03-23T22:44:35Z</last_parse>
+    <last_maintenance_at>2013-03-23T22:32:33Z</last_maintenance_at>
+  </status>
+  <link title="all subreddits" rel="alternate" href="http://www.reddit.com/r/all/" type="text/html"/>
+  <link title="all subreddits" rel="image" href="http://www.reddit.com/reddit.com.header.png" type="image/png"/>
+  <link title="all subreddits" rel="self" href="http://www.reddit.com/r/all/new/.rss" type="application/rss+xml"/>
+  <title>all subreddits</title>
+  <updated>2013-03-23T22:44:20Z</updated>
+  <id>all-subreddits-2013-03-23t22-44-20z</id>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/</id>
+    <published>2013-03-23T22:44:20Z</published>
+    <updated>2013-03-23T22:44:20Z</updated>
+    <title>Dat tongue</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/"&gt;&lt;img src="http://c.thumbs.redditmedia.com/uuAjaNid76YXrTIh.jpg" alt="Dat tongue" title="Dat tongue" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/adelaide22"&gt; adelaide22 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/aww/"&gt; aww&lt;/a&gt; &lt;br/&gt; &lt;a href="http://imgur.com/m6FanWF"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Dat tongue" rel="alternate" href="http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/" type="text/html"/>
+    <link title="Dat tongue" rel="thumbnail" href="http://c.thumbs.redditmedia.com/uuAjaNid76YXrTIh.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/</id>
+    <published>2013-03-23T22:44:20Z</published>
+    <updated>2013-03-23T22:44:20Z</updated>
+    <title>Justin Abdelkader's hat trick helps Detroit stop Ducks</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/"&gt;&lt;img src="http://f.thumbs.redditmedia.com/31aG9QX8_TBVaNSM.jpg" alt="Justin Abdelkader's hat trick helps Detroit stop Ducks" title="Justin Abdelkader's hat trick helps Detroit stop Ducks" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/robert32907"&gt; robert32907 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/nhl/"&gt; nhl&lt;/a&gt; &lt;br/&gt; &lt;a href="http://espn.go.com/nhl/recap?gameId=400442929#.UU4wMbqHNAw.reddit"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Justin Abdelkader's hat trick helps Detroit stop Ducks" rel="alternate" href="http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/" type="text/html"/>
+    <link title="Justin Abdelkader's hat trick helps Detroit stop Ducks" rel="thumbnail" href="http://f.thumbs.redditmedia.com/31aG9QX8_TBVaNSM.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/</id>
+    <published>2013-03-23T22:44:16Z</published>
+    <updated>2013-03-23T22:44:16Z</updated>
+    <title>Southern Ontario, 12th floor of a 3 year old building, 2-3mm long</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/"&gt;&lt;img src="http://f.thumbs.redditmedia.com/rhzUXj-t6YupHR1A.jpg" alt="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" title="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/REDlTOR"&gt; REDlTOR &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/whatsthisbug/"&gt; whatsthisbug&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/lS3Pl3Q.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" rel="alternate" href="http://www.reddit.com/r/whatsthisbug/comments/1avt3u/southern_ontario_12th_floor_of_a_3_year_old/" type="text/html"/>
+    <link title="Southern Ontario, 12th floor of a 3 year old building, 2-3mm long" rel="thumbnail" href="http://f.thumbs.redditmedia.com/rhzUXj-t6YupHR1A.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/MakeupAddiction/comments/1avt3t/skin_starts_flaking_and_gets_dry_after_i_apply/</id>
+    <published>2013-03-23T22:44:16Z</published>
+    <updated>2013-03-23T22:44:16Z</updated>
+    <title>Skin starts flaking and gets dry after I apply foundation and/or powder....Any tips to fix this?</title>
+    <summary type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I am a newbie to Makeup and here&amp;#39;s my problem....&lt;/p&gt; &lt;p&gt;I usually have either a really oily T-Zone or a very dry one. I exfoliate, but honestly not on a frequent basis. I use Coconut Oil to moisturize and wash my face with noxema or 100% olive oil soap. I just recently started using a serum every other night, which has helped my redness but hasn&amp;#39;t improved the dryness. Usually at night and when I have no makeup on my skin is rather soft and I have no dryness issues.&lt;/p&gt; &lt;p&gt;Here is what I use, I tone, then put moisturizer. I follow up with a green tinted primer for my red spots, then use a liquid foundation. It starts to cake up/get dry at this point. Sometimes I cover with a powder after the foundation which highlights the dryness....&lt;/p&gt; &lt;p&gt;What am I doing wrong? Any advice on how to fix this? &lt;/p&gt; &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I have really dry skin after my liquid foundation application...anything I can do to help prevent this?&lt;/p&gt; &lt;p&gt;Thanks in advance.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; submitted by &lt;a href="http://www.reddit.com/user/UrbanDuckling"&gt; UrbanDuckling &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/MakeupAddiction/"&gt; MakeupAddiction&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.reddit.com/r/MakeupAddiction/comments/1avt3t/skin_starts_flaking_and_gets_dry_after_i_apply/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/MakeupAddiction/comments/1avt3t/skin_starts_flaking_and_gets_dry_after_i_apply/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="Skin starts flaking and gets dry after I apply foundation and/or powder....Any tips to fix this?" rel="alternate" href="http://www.reddit.com/r/MakeupAddiction/comments/1avt3t/skin_starts_flaking_and_gets_dry_after_i_apply/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/BattlefieldDeutsch/comments/1avt3s/gametalk_ep_1_eroberung_auf_donya_festung/</id>
+    <published>2013-03-23T22:44:16Z</published>
+    <updated>2013-03-23T22:44:16Z</updated>
+    <title>Gametalk Ep. 1 - Eroberung auf Donya Festung (Battlefield 3 Gameplay)</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/BattlefieldDeutsch/comments/1avt3s/gametalk_ep_1_eroberung_auf_donya_festung/"&gt;&lt;img src="http://a.thumbs.redditmedia.com/20sFVReC5b0fYxWf.jpg" alt="Gametalk Ep. 1 - Eroberung auf Donya Festung (Battlefield 3 Gameplay)" title="Gametalk Ep. 1 - Eroberung auf Donya Festung (Battlefield 3 Gameplay)" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/mashed8"&gt; mashed8 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/BattlefieldDeutsch/"&gt; BattlefieldDeutsch&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.youtube.com/watch?v=seorJtaJwm8"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/BattlefieldDeutsch/comments/1avt3s/gametalk_ep_1_eroberung_auf_donya_festung/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Gametalk Ep. 1 - Eroberung auf Donya Festung (Battlefield 3 Gameplay)" rel="alternate" href="http://www.reddit.com/r/BattlefieldDeutsch/comments/1avt3s/gametalk_ep_1_eroberung_auf_donya_festung/" type="text/html"/>
+    <link title="Gametalk Ep. 1 - Eroberung auf Donya Festung (Battlefield 3 Gameplay)" rel="thumbnail" href="http://a.thumbs.redditmedia.com/20sFVReC5b0fYxWf.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/POLITIC/comments/1avt3r/rex_murphy_the_deplorable_hollowness_of_our/</id>
+    <published>2013-03-23T22:44:14Z</published>
+    <updated>2013-03-23T22:44:14Z</updated>
+    <title>Rex Murphy: The deplorable hollowness of our campus ‘progressives’</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/POLITIC/comments/1avt3r/rex_murphy_the_deplorable_hollowness_of_our/"&gt;&lt;img src="http://a.thumbs.redditmedia.com/-FpNUpNCFibBlP8B.jpg" alt="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" title="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/PoliticBot"&gt; PoliticBot &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/POLITIC/"&gt; POLITIC&lt;/a&gt; &lt;br/&gt; &lt;a href="http://fullcomment.nationalpost.com/2013/03/23/rex-murphy-the-deplorable-hollowness-of-our-campus-progressives/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/POLITIC/comments/1avt3r/rex_murphy_the_deplorable_hollowness_of_our/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" rel="alternate" href="http://www.reddit.com/r/POLITIC/comments/1avt3r/rex_murphy_the_deplorable_hollowness_of_our/" type="text/html"/>
+    <link title="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" rel="thumbnail" href="http://a.thumbs.redditmedia.com/-FpNUpNCFibBlP8B.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/Denmark/comments/1avt3q/der_er_så_mange_ting_galt_med_dette_subreddit/</id>
+    <published>2013-03-23T22:44:14Z</published>
+    <updated>2013-03-23T22:44:14Z</updated>
+    <title>Der er så mange ting galt med dette sub-reddit. (r/SWARJE)</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/Denmark/comments/1avt3q/der_er_så_mange_ting_galt_med_dette_subreddit/"&gt;&lt;img src="http://b.thumbs.redditmedia.com/G7LTbUOItDVDmXey.jpg" alt="Der er så mange ting galt med dette sub-reddit. (r/SWARJE)" title="Der er så mange ting galt med dette sub-reddit. (r/SWARJE)" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/Vaultbloom"&gt; Vaultbloom &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/Denmark/"&gt; Denmark&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/JBpvvPc.png"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/Denmark/comments/1avt3q/der_er_så_mange_ting_galt_med_dette_subreddit/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Der er så mange ting galt med dette sub-reddit. (r/SWARJE)" rel="alternate" href="http://www.reddit.com/r/Denmark/comments/1avt3q/der_er_så_mange_ting_galt_med_dette_subreddit/" type="text/html"/>
+    <link title="Der er så mange ting galt med dette sub-reddit. (r/SWARJE)" rel="thumbnail" href="http://b.thumbs.redditmedia.com/G7LTbUOItDVDmXey.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/AlienBlue/comments/1avt3p/sounds_problems_with_alien_blue_for_ipad/</id>
+    <published>2013-03-23T22:44:13Z</published>
+    <updated>2013-03-23T22:44:13Z</updated>
+    <title>Sounds problems with alien blue for iPad</title>
+    <summary type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Whenever I click any video link the sound does not play, however if I hit &amp;quot;open in safari&amp;quot; the sound will play in safari. I use the standard mute switch for rotation lock, not mute functionality. I have the newest version of alien blue pro.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; submitted by &lt;a href="http://www.reddit.com/user/Powermad"&gt; Powermad &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/AlienBlue/"&gt; AlienBlue&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.reddit.com/r/AlienBlue/comments/1avt3p/sounds_problems_with_alien_blue_for_ipad/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/AlienBlue/comments/1avt3p/sounds_problems_with_alien_blue_for_ipad/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="Sounds problems with alien blue for iPad" rel="alternate" href="http://www.reddit.com/r/AlienBlue/comments/1avt3p/sounds_problems_with_alien_blue_for_ipad/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/explainlikeimfive/comments/1avt3o/eli5how_would_you_make_the_island_of_sodor_a/</id>
+    <published>2013-03-23T22:44:13Z</published>
+    <updated>2013-03-23T22:44:13Z</updated>
+    <title>ELI5:How would you make the Island of Sodor a reality.</title>
+    <summary type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I need to know from the current generation of 5 year old children (the intended target audience of Thomas and Friends), not just rely on Generation Y nostalgia from when Rev W and George Calin were still around (Thomas Seasons 1-4 are my childhood.)&lt;/p&gt; &lt;p&gt;If you want the island of sodor to be a real place, how would you get your parents, relalitives friends and others to fund building it for real! My idea is bitcoins, but you may have other ideas. And would you move there if it was built, how much would you pay for a house there? £1,000,000 for Mrs Kyndleys Cottage?&lt;/p&gt; &lt;p&gt;Thomas is already real, but not the Island of Sodor, that is why I am asking you.&lt;/p&gt; &lt;p&gt;Also se my subreddit &lt;a href="/r/islandofsodor"&gt;/r/islandofsodor&lt;/a&gt; for the full discussion forum.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; submitted by &lt;a href="http://www.reddit.com/user/bitcoinmania"&gt; bitcoinmania &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/explainlikeimfive/"&gt; explainlikeimfive&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.reddit.com/r/explainlikeimfive/comments/1avt3o/eli5how_would_you_make_the_island_of_sodor_a/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/explainlikeimfive/comments/1avt3o/eli5how_would_you_make_the_island_of_sodor_a/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="ELI5:How would you make the Island of Sodor a reality." rel="alternate" href="http://www.reddit.com/r/explainlikeimfive/comments/1avt3o/eli5how_would_you_make_the_island_of_sodor_a/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/AskHistory/comments/1avt3n/im_designing_wall_clocks_based_on_antique_images/</id>
+    <published>2013-03-23T22:44:13Z</published>
+    <updated>2013-03-23T22:44:13Z</updated>
+    <title>I'm designing wall clocks based on antique images. What are some pre-modern sources of circular artistry or beautiful craft that I'm overlooking?</title>
+    <summary type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I am designing wall clocks based on images taken from antiquity. I&amp;#39;m new to clocksmanship (and probably just estranged myself from the entire community), so I&amp;#39;m starting with circular images. I will take this image and reproduce a portion of it in the form of an intricate papercut. This will be mounted to the hour or minute hand of the clock and will slowly revolve in front of a well-suited background. How to make the thing actually tell time will be a challenge unique to each project.&lt;/p&gt; &lt;p&gt;So far I have pored over images of centuries-old clock faces, astronomical devices, calendars, maps, coins, and astrology charts. What am I missing? What realms of pre-modern arts, crafts, design, technology, architecture, notation, etc., provide a wealth of attractive, interesting, and readily available images that lend themselves to my needs? &lt;/p&gt; &lt;p&gt;Seeing as I am rendering these images in papercut form, sharply defined forms and simpler shapes are preferred over gentle gradients and complex fields of visual chatter. For example, the clear edges and bold forms on the face of &lt;a href="http://i.imgur.com/YKFNmNF.jpg"&gt;this 14th century astrolabe&lt;/a&gt; make it a far better candidate for my uses than the convoluted clutter and shades of &lt;a href="http://i.imgur.com/Yjhq2KO.jpg"&gt;the Hereford Mappa Mundi&lt;/a&gt;. (If it can&amp;#39;t be desaturated and posterized into 2-3 crisp layers, it probably won&amp;#39;t work for me). I very much look forward to your suggestions.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; submitted by &lt;a href="http://www.reddit.com/user/mirthquake"&gt; mirthquake &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/AskHistory/"&gt; AskHistory&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.reddit.com/r/AskHistory/comments/1avt3n/im_designing_wall_clocks_based_on_antique_images/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/AskHistory/comments/1avt3n/im_designing_wall_clocks_based_on_antique_images/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="I'm designing wall clocks based on antique images. What are some pre-modern sources of circular artistry or beautiful craft that I'm overlooking?" rel="alternate" href="http://www.reddit.com/r/AskHistory/comments/1avt3n/im_designing_wall_clocks_based_on_antique_images/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/funny/comments/1avt3m/this_how_they_identify_which_bathroom_it_is_in/</id>
+    <published>2013-03-23T22:44:12Z</published>
+    <updated>2013-03-23T22:44:12Z</updated>
+    <title>This how they identify which bathroom it is in Illinois McDonald's. they girls has a Britney griner flat head</title>
+    <summary type="html">submitted by &lt;a href="http://www.reddit.com/user/zachblerr"&gt; zachblerr &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/funny/"&gt; funny&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/bLZtFLo.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/funny/comments/1avt3m/this_how_they_identify_which_bathroom_it_is_in/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="This how they identify which bathroom it is in Illinois McDonald's. they girls has a Britney griner flat head" rel="alternate" href="http://www.reddit.com/r/funny/comments/1avt3m/this_how_they_identify_which_bathroom_it_is_in/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/KerbalSpaceProgram/comments/1avt3l/massive_tanker_massive_distance_massive_rocket/</id>
+    <published>2013-03-23T22:44:12Z</published>
+    <updated>2013-03-23T22:44:12Z</updated>
+    <title>Massive tanker, massive distance, massive rocket.</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/KerbalSpaceProgram/comments/1avt3l/massive_tanker_massive_distance_massive_rocket/"&gt;&lt;img src="http://d.thumbs.redditmedia.com/HxSIUew7v_7KXa0c.jpg" alt="Massive tanker, massive distance, massive rocket." title="Massive tanker, massive distance, massive rocket." /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/drageuth2"&gt; drageuth2 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/KerbalSpaceProgram/"&gt; KerbalSpaceProgram&lt;/a&gt; &lt;br/&gt; &lt;a href="http://imgur.com/a/LtkLn#0"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/KerbalSpaceProgram/comments/1avt3l/massive_tanker_massive_distance_massive_rocket/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Massive tanker, massive distance, massive rocket." rel="alternate" href="http://www.reddit.com/r/KerbalSpaceProgram/comments/1avt3l/massive_tanker_massive_distance_massive_rocket/" type="text/html"/>
+    <link title="Massive tanker, massive distance, massive rocket." rel="thumbnail" href="http://d.thumbs.redditmedia.com/HxSIUew7v_7KXa0c.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/Steam/comments/1avt3j/problem_with_buying_as_a_gift_during_free_weekend/</id>
+    <published>2013-03-23T22:44:11Z</published>
+    <updated>2013-03-23T22:44:11Z</updated>
+    <title>Problem with buying as a gift during free weekend</title>
+    <summary type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Well i convinced my friend to buy Natural Selection 2, but he doesn&amp;#39;t have a credit card so i would buy it and send him as a gift. The problem is that i can&amp;#39;t choose him as receiver for the gift because &amp;quot;he already owns the game&amp;quot;. I guess this is because of the free weekend? I now bought it in my inventory but i still can&amp;#39;t gift it to him. &lt;/p&gt; &lt;p&gt;Would it work if i sent him the gift per mail? Or should i just wait until the free weekend ends and send him the game then? &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; submitted by &lt;a href="http://www.reddit.com/user/janibus75"&gt; janibus75 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/Steam/"&gt; Steam&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.reddit.com/r/Steam/comments/1avt3j/problem_with_buying_as_a_gift_during_free_weekend/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/Steam/comments/1avt3j/problem_with_buying_as_a_gift_during_free_weekend/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="Problem with buying as a gift during free weekend" rel="alternate" href="http://www.reddit.com/r/Steam/comments/1avt3j/problem_with_buying_as_a_gift_during_free_weekend/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/funny/comments/1avt3i/damn_you_old_memes/</id>
+    <published>2013-03-23T22:44:09Z</published>
+    <updated>2013-03-23T22:44:09Z</updated>
+    <title>Damn you old memes</title>
+    <summary type="html">submitted by &lt;a href="http://www.reddit.com/user/yesimgilbert"&gt; yesimgilbert &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/funny/"&gt; funny&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/mbS0T1A.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/funny/comments/1avt3i/damn_you_old_memes/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="Damn you old memes" rel="alternate" href="http://www.reddit.com/r/funny/comments/1avt3i/damn_you_old_memes/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/funny/comments/1avt3h/looking_to_revive_an_old_meme/</id>
+    <published>2013-03-23T22:44:08Z</published>
+    <updated>2013-03-23T22:44:08Z</updated>
+    <title>Looking to revive an old meme?</title>
+    <summary type="html">submitted by &lt;a href="http://www.reddit.com/user/HoundofBanterville"&gt; HoundofBanterville &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/funny/"&gt; funny&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/w2BKVKp.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/funny/comments/1avt3h/looking_to_revive_an_old_meme/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="Looking to revive an old meme?" rel="alternate" href="http://www.reddit.com/r/funny/comments/1avt3h/looking_to_revive_an_old_meme/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/Music/comments/1avt3g/would_you_mind_lending_an_ear_flaccid_logic_would/</id>
+    <published>2013-03-23T22:44:07Z</published>
+    <updated>2013-03-23T22:44:07Z</updated>
+    <title>Would you mind lending an ear? "Flaccid Logic" would love you forever.</title>
+    <summary type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;And who wouldn&amp;#39;t want to be loved by such an anatomically-related band?&lt;/p&gt; &lt;p&gt;&lt;a href="https://soundcloud.com/flaccid-logic"&gt;https://soundcloud.com/flaccid-logic&lt;/a&gt;&lt;/p&gt; &lt;p&gt;If you guys wouldn&amp;#39;t mind giving up some of your time to give us a listen that&amp;#39;d be pretty swell. We&amp;#39;re a bunch of college kids out of Cincinnati, OH. We record everything ourselves and shit. Let us know what you think and whatnot.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; submitted by &lt;a href="http://www.reddit.com/user/chillfox"&gt; chillfox &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/Music/"&gt; Music&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.reddit.com/r/Music/comments/1avt3g/would_you_mind_lending_an_ear_flaccid_logic_would/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/Music/comments/1avt3g/would_you_mind_lending_an_ear_flaccid_logic_would/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="Would you mind lending an ear? &quot;Flaccid Logic&quot; would love you forever." rel="alternate" href="http://www.reddit.com/r/Music/comments/1avt3g/would_you_mind_lending_an_ear_flaccid_logic_would/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/pics/comments/1avt3f/this_how_they_identify_which_bathroom_it_is_in/</id>
+    <published>2013-03-23T22:44:04Z</published>
+    <updated>2013-03-23T22:44:04Z</updated>
+    <title>This how they identify which bathroom it is in Illinois McDonald's. they girls has a Britney griner flat head</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/pics/comments/1avt3f/this_how_they_identify_which_bathroom_it_is_in/"&gt;&lt;img src="http://c.thumbs.redditmedia.com/hq8hC930woaoodCh.jpg" alt="This how they identify which bathroom it is in Illinois McDonald's. they girls has a Britney griner flat head" title="This how they identify which bathroom it is in Illinois McDonald's. they girls has a Britney griner flat head" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/zachblerr"&gt; zachblerr &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/pics/"&gt; pics&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/bLZtFLo.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/pics/comments/1avt3f/this_how_they_identify_which_bathroom_it_is_in/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="This how they identify which bathroom it is in Illinois McDonald's. they girls has a Britney griner flat head" rel="alternate" href="http://www.reddit.com/r/pics/comments/1avt3f/this_how_they_identify_which_bathroom_it_is_in/" type="text/html"/>
+    <link title="This how they identify which bathroom it is in Illinois McDonald's. they girls has a Britney griner flat head" rel="thumbnail" href="http://c.thumbs.redditmedia.com/hq8hC930woaoodCh.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/CanadaPolitics/comments/1avt3e/rex_murphy_the_deplorable_hollowness_of_our/</id>
+    <published>2013-03-23T22:44:03Z</published>
+    <updated>2013-03-23T22:44:03Z</updated>
+    <title>Rex Murphy: The deplorable hollowness of our campus ‘progressives’</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/CanadaPolitics/comments/1avt3e/rex_murphy_the_deplorable_hollowness_of_our/"&gt;&lt;img src="http://a.thumbs.redditmedia.com/-FpNUpNCFibBlP8B.jpg" alt="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" title="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/mackenzie24"&gt; mackenzie24 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/CanadaPolitics/"&gt; CanadaPolitics&lt;/a&gt; &lt;br/&gt; &lt;a href="http://fullcomment.nationalpost.com/2013/03/23/rex-murphy-the-deplorable-hollowness-of-our-campus-progressives/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/CanadaPolitics/comments/1avt3e/rex_murphy_the_deplorable_hollowness_of_our/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" rel="alternate" href="http://www.reddit.com/r/CanadaPolitics/comments/1avt3e/rex_murphy_the_deplorable_hollowness_of_our/" type="text/html"/>
+    <link title="Rex Murphy: The deplorable hollowness of our campus ‘progressives’" rel="thumbnail" href="http://a.thumbs.redditmedia.com/-FpNUpNCFibBlP8B.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/AdviceAnimals/comments/1avt3d/oh_china/</id>
+    <published>2013-03-23T22:44:03Z</published>
+    <updated>2013-03-23T22:44:03Z</updated>
+    <title>Oh, China.</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/AdviceAnimals/comments/1avt3d/oh_china/"&gt;&lt;img src="http://c.thumbs.redditmedia.com/g435Y73zc6F40Lsh.jpg" alt="Oh, China." title="Oh, China." /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/EmperorMichael"&gt; EmperorMichael &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/AdviceAnimals/"&gt; AdviceAnimals&lt;/a&gt; &lt;br/&gt; &lt;a href="http://cdn.memegenerator.net/instances/400x/35581679.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/AdviceAnimals/comments/1avt3d/oh_china/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Oh, China." rel="alternate" href="http://www.reddit.com/r/AdviceAnimals/comments/1avt3d/oh_china/" type="text/html"/>
+    <link title="Oh, China." rel="thumbnail" href="http://c.thumbs.redditmedia.com/g435Y73zc6F40Lsh.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/guns/comments/1avt3b/the_four_horsemen/</id>
+    <published>2013-03-23T22:43:58Z</published>
+    <updated>2013-03-23T22:43:58Z</updated>
+    <title>The four horsemen.</title>
+    <summary type="html">submitted by &lt;a href="http://www.reddit.com/user/Texas_pumpjack"&gt; Texas_pumpjack &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/guns/"&gt; guns&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/2XFrlUR.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/guns/comments/1avt3b/the_four_horsemen/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="The four horsemen." rel="alternate" href="http://www.reddit.com/r/guns/comments/1avt3b/the_four_horsemen/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/DetroitRedWings/comments/1avt39/datsyukian_deke_causes_a_teammate_collision_still/</id>
+    <published>2013-03-23T22:43:56Z</published>
+    <updated>2013-03-23T22:43:56Z</updated>
+    <title>Datsyukian deke causes a teammate collision. Still one of my favorite highlights.</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/DetroitRedWings/comments/1avt39/datsyukian_deke_causes_a_teammate_collision_still/"&gt;&lt;img src="http://c.thumbs.redditmedia.com/-bWDGZOl-S5U5tIz.jpg" alt="Datsyukian deke causes a teammate collision. Still one of my favorite highlights." title="Datsyukian deke causes a teammate collision. Still one of my favorite highlights." /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/swad44"&gt; swad44 &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/DetroitRedWings/"&gt; DetroitRedWings&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.youtube.com/watch?feature=player_detailpage&amp;amp;v=qmCtjN9cPbg#t=85s"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/DetroitRedWings/comments/1avt39/datsyukian_deke_causes_a_teammate_collision_still/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Datsyukian deke causes a teammate collision. Still one of my favorite highlights." rel="alternate" href="http://www.reddit.com/r/DetroitRedWings/comments/1avt39/datsyukian_deke_causes_a_teammate_collision_still/" type="text/html"/>
+    <link title="Datsyukian deke causes a teammate collision. Still one of my favorite highlights." rel="thumbnail" href="http://c.thumbs.redditmedia.com/-bWDGZOl-S5U5tIz.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/gaming/comments/1avt38/oh_how_i_hate_you/</id>
+    <published>2013-03-23T22:43:55Z</published>
+    <updated>2013-03-23T22:43:55Z</updated>
+    <title>Oh, how I hate you.</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/gaming/comments/1avt38/oh_how_i_hate_you/"&gt;&lt;img src="http://f.thumbs.redditmedia.com/K0T5MtgjRps7UDw_.jpg" alt="Oh, how I hate you." title="Oh, how I hate you." /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/CitizenOi"&gt; CitizenOi &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/gaming/"&gt; gaming&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/oy42Hkd.png"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/gaming/comments/1avt38/oh_how_i_hate_you/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="Oh, how I hate you." rel="alternate" href="http://www.reddit.com/r/gaming/comments/1avt38/oh_how_i_hate_you/" type="text/html"/>
+    <link title="Oh, how I hate you." rel="thumbnail" href="http://f.thumbs.redditmedia.com/K0T5MtgjRps7UDw_.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/hockey/comments/1avt37/pj_stockstop_poppin_your_suit_lapels/</id>
+    <published>2013-03-23T22:43:55Z</published>
+    <updated>2013-03-23T22:43:55Z</updated>
+    <title>PJ Stock...stop poppin' your suit lapels.</title>
+    <summary type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Kevin&amp;#39;s bringing it though. Anyways, discuss what you like/dislike about HNIC.&lt;/p&gt; &lt;p&gt;Cheers.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; submitted by &lt;a href="http://www.reddit.com/user/James007Bond"&gt; James007Bond &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/hockey/"&gt; hockey&lt;/a&gt; &lt;br/&gt; &lt;a href="http://www.reddit.com/r/hockey/comments/1avt37/pj_stockstop_poppin_your_suit_lapels/"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/hockey/comments/1avt37/pj_stockstop_poppin_your_suit_lapels/"&gt;[comment]&lt;/a&gt;</summary>
+    <link title="PJ Stock...stop poppin' your suit lapels." rel="alternate" href="http://www.reddit.com/r/hockey/comments/1avt37/pj_stockstop_poppin_your_suit_lapels/" type="text/html"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/truthfulteenopinions/comments/1avt36/14f_honest_opinion/</id>
+    <published>2013-03-23T22:43:54Z</published>
+    <updated>2013-03-23T22:43:54Z</updated>
+    <title>14/f Honest opinion?</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/truthfulteenopinions/comments/1avt36/14f_honest_opinion/"&gt;&lt;img src="http://c.thumbs.redditmedia.com/j1SRemKnr6cCGtmD.jpg" alt="14/f Honest opinion?" title="14/f Honest opinion?" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/kissmyassUSA"&gt; kissmyassUSA &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/truthfulteenopinions/"&gt; truthfulteenopinions&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/8RSQjT3.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/truthfulteenopinions/comments/1avt36/14f_honest_opinion/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="14/f Honest opinion?" rel="alternate" href="http://www.reddit.com/r/truthfulteenopinions/comments/1avt36/14f_honest_opinion/" type="text/html"/>
+    <link title="14/f Honest opinion?" rel="thumbnail" href="http://c.thumbs.redditmedia.com/j1SRemKnr6cCGtmD.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/pics/comments/1avt34/the_thumbnail_looks_like_an_eye/</id>
+    <published>2013-03-23T22:43:52Z</published>
+    <updated>2013-03-23T22:43:52Z</updated>
+    <title>The thumbnail looks like an eye</title>
+    <summary type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="http://www.reddit.com/r/pics/comments/1avt34/the_thumbnail_looks_like_an_eye/"&gt;&lt;img src="http://d.thumbs.redditmedia.com/EAtH8a2-H1_EgPPQ.jpg" alt="The thumbnail looks like an eye" title="The thumbnail looks like an eye" /&gt;&lt;/a&gt; &lt;/td&gt;&lt;td&gt; submitted by &lt;a href="http://www.reddit.com/user/HiddenText"&gt; HiddenText &lt;/a&gt; to &lt;a href="http://www.reddit.com/r/pics/"&gt; pics&lt;/a&gt; &lt;br/&gt; &lt;a href="http://i.imgur.com/num3nFP.jpg"&gt;[link]&lt;/a&gt; &lt;a href="http://www.reddit.com/r/pics/comments/1avt34/the_thumbnail_looks_like_an_eye/"&gt;[comment]&lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</summary>
+    <link title="The thumbnail looks like an eye" rel="alternate" href="http://www.reddit.com/r/pics/comments/1avt34/the_thumbnail_looks_like_an_eye/" type="text/html"/>
+    <link title="The thumbnail looks like an eye" rel="thumbnail" href="http://d.thumbs.redditmedia.com/EAtH8a2-H1_EgPPQ.jpg" type="image/jpeg"/>
+  </entry>
+</feed>
