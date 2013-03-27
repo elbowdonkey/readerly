@@ -1,4 +1,4 @@
-# Reader
+# Readerly
 
 Most minimalist feed reader ever made.
 
@@ -9,11 +9,10 @@ Most minimalist feed reader ever made.
 * Http-auth (no auth)
 * Configuration file with feeds
 * River of news style - no counts, no sidebars with feeds, nothing
-* Typographic only design (based on medium.com - [example](http://dl.dropbox.com/u/8178/misc/Screen%20Shot%202013-03-14%20at%205.38.10%20PM.png))
-* Type is tisa-web-pro
+* Typographic design
 * Deployable anywhere, no background jobs (using pubsubhubbub)
 * Show one feed item. Press space, next one. ctrl space, previous. 
-* Single button toggles between new and 'read' items. 
+* No 'all' items. If you read, its gone.
 
 ## Technologies
 
@@ -21,8 +20,9 @@ Most minimalist feed reader ever made.
 * superfeedr thru rack-superfeedr (https://github.com/superfeedr/rack-superfeedr)
 * any SQL db
 
-## Future
+## Future (maybe)
 
+* Read items
 * See read items per feed
 * Search
 * Send to instapaper
