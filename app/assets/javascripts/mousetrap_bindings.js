@@ -1,10 +1,12 @@
-Mousetrap.bind('j', function(){
+Mousetrap.bind('ctrl+space', function(e){
+  e.preventDefault();
   window.scrollPosition = 0;
   $.scrollTo(0);
   previousArticle();
 });
 
-Mousetrap.bind('k', function(){    
+Mousetrap.bind('space', function(e){
+  e.preventDefault();
   $.scrollTo("+=200px");
 
   if (document.body.scrollTop == window.scrollPosition) {
@@ -15,3 +17,5 @@ Mousetrap.bind('k', function(){
 
   window.scrollPosition = document.body.scrollTop;
 });
+
+Mousetrap.pause();
