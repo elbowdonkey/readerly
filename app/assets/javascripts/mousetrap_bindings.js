@@ -5,6 +5,13 @@ Mousetrap.bind(['ctrl+space', 'k'], function(e){
   previousArticle();
 });
 
+Mousetrap.bind(['shift+space', 'shift+j'], function(e){
+  e.preventDefault();
+  window.scrollPosition = 0;
+  $.scrollTo(0);
+  nextArticle();
+});
+
 Mousetrap.bind(['space', 'j'], function(e){
   e.preventDefault();
   $.scrollTo("+=200px");
