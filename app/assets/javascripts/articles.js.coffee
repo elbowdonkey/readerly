@@ -5,12 +5,13 @@
 $ ->
   $("article").hide()
   if $("article").not(".read").size() > 1
-    humane.log "Press 'k' to see the next article"
+    humane.log "Press 'space' to see the next article"
   window.scrollPosition = 0
 
 $(window).load ->
   $("article").first().show()
   $("#loader").hide()
+  Mousetrap.unpause();
 
 @nextArticle =  ->
   if $("article").not(".read").size() > 1
@@ -18,7 +19,7 @@ $(window).load ->
     
     # show message if required
     if $("article.read").size() is 1 and (typeof window.done_helping is "undefined")
-      humane.log "Press 'j' to get back to last one"
+      humane.log "Press 'ctrl + space' to get back to last one"
       window.done_helping = true
 
     # go to next article
