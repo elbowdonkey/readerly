@@ -1,32 +1,32 @@
 class Notification
-
-  def initialize(n)
-    @content = n
+  def initialize(raw_notification, entry_index = 0)
+    @content = raw_notification
+    @entry_index = entry_index
   end
 
-  # article related
+  # article-related
 
-  # TODO - deal with notifications that have more than one entry
   def title
-    @content.css("entry").first.css("title").children.first.to_s rescue nil
+    @content.css("entry")[@entry_index].css("title").children.first.to_s rescue nil
   end
 
   def link
-    @content.css("entry").first.css("link").first.attr("href") rescue nil
+    @content.css("entry")[@entry_index].css("link").first.attr("href") rescue nil
   end
 
   def content
-    content = @content.css("entry").first.css("content").children.first.to_s rescue nil
-    content = @content.css("entry").css("summary").first.children.first.to_s if content.blank? rescue nil
+    content = @content.css("entry")[@entry_index].css("content").children.first.to_s rescue nil
+    content = @content.css("entry")[@entry_index].css("summary").first.children.first.to_s if content.blank? rescue nil
     content = self.title if content.blank?
     return content
   end
 
-  def pub_date
-    Date.parse(@content.css("entry").first.css("published").children.first.to_s) rescue nil
+  def published_at
+    Date.parse(@content.css("entry")[@entry_index].css("published").children.first.to_s).to_datetime rescue nil
   end
 
-  # feed related
+  # feed-related
+
   def feed_name
     @content.css("title").children.first.to_s rescue nil
   end
