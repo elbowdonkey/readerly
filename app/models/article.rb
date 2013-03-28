@@ -20,7 +20,7 @@ class Article < ActiveRecord::Base
   validates :published_at,    :presence => true
   validates :content,         :presence => true
   validates :link,            :presence => true,
-                              :uniqueness => true
+                              :uniqueness => { :scope => :published_at }
 
   belongs_to :feed
 
@@ -28,7 +28,7 @@ class Article < ActiveRecord::Base
     raw_notification.css('entry').each_with_index do |entry, index|
       notification = Notification.new(raw_notification, index)
       feed = Feed.find_or_create_by_name_and_url(notification.feed_name, notification.feed_url)
-      if Article.where(:link => notification.link).empty?
+      if Article.where(:link => notification.link, :published_at => notification.published_at).empty?
         article              = Article.new
         article.feed         = feed
         article.title        = notification.title

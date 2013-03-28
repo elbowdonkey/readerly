@@ -82,7 +82,7 @@ describe Article do
     end
 
     it "should have the right published_at date" do
-      @article.published_at.should eq(Date.parse("2013-03-23T22:44:20Z"))
+      @article.published_at.should eq(DateTime.parse("2013-03-23 00:00:00 UTC").in_time_zone(Time.zone))
     end
 
     it "should have the right content" do
@@ -93,9 +93,14 @@ describe Article do
       @article.link.should eq("http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/")
     end
 
-    it "should not create duplicate entries" do
-      crap = build(:article, :link => "http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/")
-      crap.should_not be_valid
+    it "should allow articles with the same link" do
+      article = build(:article, :link => "http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/")
+      article.should be_valid
+    end
+
+    it "should not allow articles with the same link and published datetime" do
+      article = build(:article, :link => "http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/", :published_at => DateTime.parse("2013-03-23 00:00:00 UTC").in_time_zone(Time.zone))
+      article.should_not be_valid
     end
   end
 

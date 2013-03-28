@@ -43,9 +43,9 @@ describe Notification do
     it "should return the title as content if there's no content"
   end
 
-   context ".pub_date" do
+   context ".published_at" do
     it "should return the article's published_at date" do
-      @notification.published_at.should eq(Date.parse("2013-03-23T22:44:20Z"))
+      @notification.published_at.should eq(DateTime.parse("2013-03-23 00:00:00 UTC").in_time_zone(Time.zone))
     end
 
     it "should return nil if no published_at date is found" do
