@@ -37,3 +37,7 @@ $(window).load ->
   $("article.read").last().removeClass "read"
   $("article").not(".read").first().show()
   return true
+
+@openCurrentLink = ->
+  url = $("article").not(".read").first().find('h2 a').attr('href')
+  window.open(url, '_blank');

@@ -18,4 +18,8 @@ Mousetrap.bind(['space', 'j'], function(e){
   window.scrollPosition = document.body.scrollTop;
 });
 
+Mousetrap.bind('1', function(){
+  openCurrentLink();
+})
+
 Mousetrap.pause();
