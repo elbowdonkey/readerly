@@ -16,8 +16,6 @@ describe Notification do
       notification = Notification.new([])
       notification.title.should be_nil
     end
-
-    it "should return the first line of content if no title"
   end
 
   context ".link" do
