@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe Notification do
 
-  before(:each) do
-    load_notification
+  before do
+    load_raw_notification
+    @notification = Notification.new(@raw_notification, 0)
   end
 
   context ".title" do
-    it "should return the feed title" do
-      @notification.title == "1"
+    it "should return the entry title" do
+      @notification.title.should eq("Dat tongue")
     end
 
     it "should return nil if no title is found" do
@@ -21,7 +22,7 @@ describe Notification do
 
   context ".link" do
     it "should return the article link" do
-      @notification.link == "http://push-pub.appspot.com/entry/703002"
+      @notification.link.should eq("http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/")
     end
     it "should return nil if no link is found" do
       @notification = Notification.new([])
@@ -31,7 +32,7 @@ describe Notification do
 
   context ".content" do
     it "should return the article's content" do
-      @notification.content  == "77777777777777"
+      @notification.content.should eq("77777777777777")
     end
 
     it "should return nil if no content is found" do
@@ -43,19 +44,19 @@ describe Notification do
   end
 
    context ".pub_date" do
-    it "should return the article's pub_date" do
-      @notification.pub_date == Date.parse("2013-03-18T00:49:24Z")
+    it "should return the article's published_at date" do
+      @notification.published_at.should eq(Date.parse("2013-03-23T22:44:20Z"))
     end
 
-    it "should return nil if no pub_date is found" do
+    it "should return nil if no published_at date is found" do
       @notification = Notification.new([])
-      @notification.pub_date.should be_nil
+      @notification.published_at.should be_nil
     end
   end
 
   context ".feed_name" do
     it "should return the article's feed name" do
-      @notification.feed_name == "Publisher example"
+      @notification.feed_name.should eq("all subreddits")
     end
 
     it "should return nil if no feed name is found" do
@@ -66,7 +67,7 @@ describe Notification do
 
   context ".feed_url" do
     it "should return the article's feed url" do
-      @notification.feed_url == "http://pubsubhubbub.superfeedr.com"
+      @notification.feed_url.should eq("http://www.reddit.com/r/all/")
     end
 
     it "should return nil if no feed url is found" do
