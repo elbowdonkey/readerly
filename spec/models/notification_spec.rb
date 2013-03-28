@@ -13,8 +13,8 @@ describe Notification do
     end
 
     it "should return nil if no title is found" do
-      @notification = Notification.new([])
-      @notification.title.should be_nil
+      notification = Notification.new([])
+      notification.title.should be_nil
     end
 
     it "should return the first line of content if no title"
@@ -25,8 +25,8 @@ describe Notification do
       @notification.link.should eq("http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/")
     end
     it "should return nil if no link is found" do
-      @notification = Notification.new([])
-      @notification.link.should be_nil
+      notification = Notification.new([])
+      notification.link.should be_nil
     end
   end
 
@@ -36,8 +36,8 @@ describe Notification do
     end
 
     it "should return nil if no content is found" do
-      @notification = Notification.new([])
-      @notification.content.should be_nil
+      notification = Notification.new([])
+      notification.content.should be_nil
     end
 
     it "should return the title as content if there's no content"
@@ -49,8 +49,8 @@ describe Notification do
     end
 
     it "should return nil if no published_at date is found" do
-      @notification = Notification.new([])
-      @notification.published_at.should be_nil
+      notification = Notification.new([])
+      notification.published_at.should be_nil
     end
   end
 
@@ -60,8 +60,8 @@ describe Notification do
     end
 
     it "should return nil if no feed name is found" do
-      @notification = Notification.new([])
-      @notification.feed_name.should be_nil
+      notification = Notification.new([])
+      notification.feed_name.should be_nil
     end
   end
 
@@ -71,8 +71,8 @@ describe Notification do
     end
 
     it "should return nil if no feed url is found" do
-      @notification = Notification.new([])
-      @notification.feed_url.should be_nil
+      notification = Notification.new([])
+      notification.feed_url.should be_nil
     end
   end
 end
