@@ -1,11 +1,11 @@
-Mousetrap.bind('ctrl+space', function(e){
+Mousetrap.bind(['ctrl+space', 'k'], function(e){
   e.preventDefault();
   window.scrollPosition = 0;
   $.scrollTo(0);
   previousArticle();
 });
 
-Mousetrap.bind('space', function(e){
+Mousetrap.bind(['space', 'j'], function(e){
   e.preventDefault();
   $.scrollTo("+=200px");
 
