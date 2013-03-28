@@ -7,22 +7,24 @@ class Notification
   # article-related
 
   def title
-    @content.css("entry")[@entry_index].css("title").children.first.to_s rescue nil
+    entry.css("title").children.first.to_s rescue nil
   end
 
   def link
-    @content.css("entry")[@entry_index].css("link").first.attr("href") rescue nil
+    link = entry.css("link[rel='canonical']").first.attr("href") rescue nil
+    link = entry.css("link").first.attr("href") if link.blank? rescue nil
+    return link
   end
 
   def content
-    content = @content.css("entry")[@entry_index].css("content").children.first.to_s rescue nil
-    content = @content.css("entry")[@entry_index].css("summary").first.children.first.to_s if content.blank? rescue nil
+    content = entry.css("content").children.first.to_s rescue nil
+    content = entry.css("summary").first.children.first.to_s if content.blank? rescue nil
     content = self.title if content.blank?
     return content
   end
 
   def published_at
-    Date.parse(@content.css("entry")[@entry_index].css("published").children.first.to_s).to_datetime rescue nil
+    Date.parse(entry.css("published").children.first.to_s).to_datetime rescue nil
   end
 
   # feed-related
@@ -33,5 +35,10 @@ class Notification
 
   def feed_url
     @content.css("link[type='text/html']").first.attr("href") rescue nil
+  end
+
+  # helpers
+  def entry
+    @content.css("entry")[@entry_index]
   end
 end
