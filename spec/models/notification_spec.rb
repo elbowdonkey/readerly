@@ -38,7 +38,22 @@ describe Notification do
       notification.content.should be_nil
     end
 
-    it "should return the title as content if there's no content"
+    it "should return the summary as content if there's no content" do
+      file = File.open(File.join(Rails.root, "spec", "fixtures", "multiple_no_content.xml"), "r")
+      xml_string = file.read
+      raw_notification = Nokogiri::XML(xml_string)
+      notification = Notification.new(raw_notification, 0)
+      notification.content.should eq("77777777777777")
+    end
+
+    it "should return the title as content if there's no summary or content" do
+      file = File.open(File.join(Rails.root, "spec", "fixtures", "multiple_no_content.xml"), "r")
+      xml_string = file.read
+      raw_notification = Nokogiri::XML(xml_string)
+      notification = Notification.new(raw_notification, 1)
+      notification.title.should eq("Justin Abdelkader's hat trick helps Detroit stop Ducks")
+      notification.content.should eq(notification.title)
+    end
   end
 
    context ".published_at" do

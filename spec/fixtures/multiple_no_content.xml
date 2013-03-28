@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <status xmlns="http://superfeedr.com/xmpp-pubsub-ext" feed="http://www.reddit.com/r/all/new/.rss">
+    <http code="200">Fetched (ring) 200 and parsed 25/25 entries</http>
+    <next_fetch>2013-03-23T22:59:35Z</next_fetch>
+    <entries_count_since_last_maintenance>25</entries_count_since_last_maintenance>
+    <period>900</period>
+    <last_fetch>2013-03-23T22:44:35Z</last_fetch>
+    <last_parse>2013-03-23T22:44:35Z</last_parse>
+    <last_maintenance_at>2013-03-23T22:32:33Z</last_maintenance_at>
+  </status>
+  <link title="all subreddits" rel="alternate" href="http://www.reddit.com/r/all/" type="text/html"/>
+  <link title="all subreddits" rel="image" href="http://www.reddit.com/reddit.com.header.png" type="image/png"/>
+  <link title="all subreddits" rel="self" href="http://www.reddit.com/r/all/new/.rss" type="application/rss+xml"/>
+  <title>all subreddits</title>
+  <updated>2013-03-23T22:44:20Z</updated>
+  <id>all-subreddits-2013-03-23t22-44-20z</id>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/</id>
+    <published>2013-03-23T22:44:20Z</published>
+    <updated>2013-03-23T22:44:20Z</updated>
+    <title>Dat tongue</title>
+    <summary type="html">77777777777777</summary>
+    <link title="Dat tongue" rel="alternate" href="http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/" type="text/html"/>
+    <link title="Dat tongue" rel="thumbnail" href="http://c.thumbs.redditmedia.com/uuAjaNid76YXrTIh.jpg" type="image/jpeg"/>
+  </entry>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.georss.org/georss" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext">
+    <id>http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/</id>
+    <published>2013-03-23T22:44:20Z</published>
+    <updated>2013-03-23T22:44:20Z</updated>
+    <title>Justin Abdelkader's hat trick helps Detroit stop Ducks</title>
+    <link title="Justin Abdelkader's hat trick helps Detroit stop Ducks" rel="alternate" href="http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/" type="text/html"/>
+    <link title="Justin Abdelkader's hat trick helps Detroit stop Ducks" rel="thumbnail" href="http://f.thumbs.redditmedia.com/31aG9QX8_TBVaNSM.jpg" type="image/jpeg"/>
+  </entry>
+</feed>
