@@ -6,6 +6,7 @@ $ ->
   $("article").hide()
   if $("article").not(".read").size() > 1
     if bacon.isMobile() == true
+      $('aside').css("margin-top", "0")
       humane.log "Swipe → to see the next article"
     else
       humane.log "Press 'space' to see the next article"
@@ -19,6 +20,8 @@ $(window).load ->
 
 @nextArticle =  ->
   if $("article").not(".read").size() > 1
+    window.scrollPosition = 0
+    $.scrollTo(0)
     current_article = $("article").not(".read").first().attr('id')
     
     # show message if required
@@ -27,7 +30,7 @@ $(window).load ->
         humane.log "Swipe ← to get back to last one"
       else
         humane.log "Press 'ctrl + space' to get back to last one"
-        
+
       window.done_helping = true
 
     # go to next article
@@ -41,6 +44,8 @@ $(window).load ->
   return true
 
 @previousArticle = ->
+  window.scrollPosition = 0
+  $.scrollTo(0)
   $("article").not(".read").first().hide()
   $("article.read").last().removeClass "read"
   $("article").not(".read").first().show()
