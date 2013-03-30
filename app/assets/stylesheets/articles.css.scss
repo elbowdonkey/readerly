@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background-color: #FCFCFB;
+  background-color: $background-color;
 }
 
 .container {
@@ -21,7 +21,7 @@ article {
 aside {
   border-bottom: 1px solid #dededc;
   padding-bottom: 12px;
-  color: #b3b3b1;
+  color: $body-color;
   margin-bottom: 21px;
   text-transform:uppercase;
   margin-top: 40px;
@@ -51,7 +51,7 @@ h3 {
 }
 
 a {
-  color: #44AA55;
+  color: $link-color;
   text-decoration: none;
 }
 
