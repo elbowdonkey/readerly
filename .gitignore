@@ -24,3 +24,6 @@
 capybara-*.html
 .rspec
 /spec/tmp/*
+
+# Readerly config file
+/config/config.yml
