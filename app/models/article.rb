@@ -10,6 +10,8 @@
 #  link         :text
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
+#  notification :text
+#  read         :boolean
 #
 
 class Article < ActiveRecord::Base
@@ -21,7 +23,6 @@ class Article < ActiveRecord::Base
   validates :content,         :presence => true
   validates :link,            :presence => true,
                               :uniqueness => { :scope => :published_at }
-
   belongs_to :feed
 
   def self.create_from_raw_notification(raw_notification)
