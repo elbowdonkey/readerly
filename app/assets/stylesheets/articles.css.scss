@@ -24,6 +24,21 @@ article {
 
 .container {
   @include outer-container;
+
+  position: relative;
+}
+
+.brand {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  padding: 7px 10px;
+  background: #494949;
+  font-family: $title-font-family;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: white;
 }
 
 .article-feed {
