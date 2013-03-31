@@ -26,15 +26,6 @@ article {
   @include outer-container;
 }
 
-.seen {
-  a, p {
-    color: #666;
-  }
-  img {
-    -webkit-filter: grayscale(100%);
-  }
-}
-
 .article-feed {
   background: $feed-background-color;
   padding-top: 40px;
@@ -68,4 +59,13 @@ article {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.618;
+}
+
+.seen {
+  a, p {
+    color: #666;
+  }
+  img {
+    -webkit-filter: grayscale(100%);
+  }
 }
