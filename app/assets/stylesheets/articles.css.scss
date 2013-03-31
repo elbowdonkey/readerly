@@ -1,58 +1,29 @@
-// Place all the styles related to the articles controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* ==========================================================================
+   Base tags
+   ========================================================================== */
 
 body {
   background-color: $background-color;
 }
 
-.container {
-  @include outer-container;
+a {
+  color: $link-color;
+  text-decoration: none;
 }
 
 article {
   @include fill-parent;
 
-  padding-bottom: 27px;
-  padding-top: 20px;
   border-bottom: 1px solid #dededc;
 }
 
-aside {
-  border-bottom: 1px solid #dededc;
-  padding-bottom: 12px;
-  color: $body-color;
-  margin-bottom: 21px;
-  text-transform:uppercase;
-  margin-top: 40px;
-  font-family: $title-font-family;
-  font-weight: 700;
-  font-size: 14px;
-  a {
-    font-family: $title-font-family;
-    font-weight: 700;
-    font-size: 12px;
-  }
-}
 
-h2 {
-  font-family: $body-font-family;
-  font-weight: 900;
-  font-size: 50px;
-  line-height: 1.1;
-  margin-bottom: 40px;
-}
+/* ==========================================================================
+   Base classes
+   ========================================================================== */
 
-h3 {
-  font-family: $body-font-family;
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 2px;
-}
-
-a {
-  color: $link-color;
-  text-decoration: none;
+.container {
+  @include outer-container;
 }
 
 .seen {
@@ -64,9 +35,37 @@ a {
   }
 }
 
-.body {
+.article-feed {
+  background: $feed-background-color;
+  padding-top: 40px;
+  padding-bottom: 12px;
+  // border-bottom: 1px solid #dededc;
+  a {
+    font-family: $title-font-family;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+
+.article-title {
+  margin-bottom: 40px;
+  font-family: $title-font-family;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  color: $title-color;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  a {
+    color: inherit;
+  }
+}
+
+.article-body {
   font-family: $body-font-family;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.618;
 }

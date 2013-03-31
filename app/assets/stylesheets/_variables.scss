@@ -1,6 +1,8 @@
-$body-font-family:        "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
-$title-font-family:       "Source Sans Pro", "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+$title-font-family:       "Lato", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+$body-font-family:        "Merriweather", Georgia, Times, "Times New Roman", serif;
 
 $background-color:        #FCFCFB;
+$feed-background-color:   darken($background-color, 20%);
+$title-color:             #16a085;
 $body-color:              #b3b3b1;
-$link-color:              #44AA55;
+$link-color:              darken($title-color, 5%);

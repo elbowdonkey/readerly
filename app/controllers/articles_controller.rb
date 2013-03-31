@@ -14,7 +14,7 @@ class ArticlesController < ApplicationController
   end
 
   def read
-    render :json => Article.find(params[:id]).read!
+    # render :json => Article.find(params[:id]).read!
   end
 
   def subscribe
