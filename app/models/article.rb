@@ -37,6 +37,7 @@ class Article < ActiveRecord::Base
         article.content      = notification.content
         article.link         = notification.link
         article.notification = raw_notification.document.to_s
+        article.read         = false
         article.save
       end
     end
