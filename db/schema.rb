@@ -19,10 +19,10 @@ ActiveRecord::Schema.define(:version => 20130324183918) do
     t.datetime "published_at"
     t.text     "content"
     t.text     "link"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
     t.text     "notification"
-    t.boolean  "read"
+    t.boolean  "read",         :default => false
   end
 
   create_table "feeds", :force => true do |t|
