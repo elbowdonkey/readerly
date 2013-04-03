@@ -16,4 +16,8 @@ class Feed < ActiveRecord::Base
   validates :url, :presence  => true
 
   has_many :articles
+
+  def self.for_notification(n)
+    find_or_create_by_name_and_url(n.feed_name, n.feed_url)
+  end
 end
