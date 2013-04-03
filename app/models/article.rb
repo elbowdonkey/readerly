@@ -15,7 +15,7 @@
 #
 
 class Article < ActiveRecord::Base
-  attr_accessible             :content, :feed_id, :link, :published_at, :title, :notification
+  attr_accessible             :content, :feed_id, :link, :published_at, :title, :notification, :feed, :read
 
   validates :feed_id,         :presence => true
   validates :title,           :presence => true
@@ -27,18 +27,18 @@ class Article < ActiveRecord::Base
 
   def self.create_from_raw_notification(raw_notification)
     raw_notification.css('entry').each_with_index do |entry, index|
+
       notification = Notification.new(raw_notification, index)
-      feed = Feed.find_or_create_by_name_and_url(notification.feed_name, notification.feed_url)
-      if Article.where(:link => notification.link, :published_at => notification.published_at).empty?
-        article              = Article.new
-        article.feed         = feed
-        article.title        = notification.title
-        article.published_at = notification.published_at
-        article.content      = notification.content
-        article.link         = notification.link
-        article.notification = raw_notification.document.to_s
-        article.read         = false
-        article.save
+      feed         = Feed.for_notification(notification)
+      
+      if Article.not_found_for_notification(notification)
+        Article.create( feed:         feed, 
+                        title:        notification.title,
+                        published_at: notification.published_at,
+                        content:      notification.content,
+                        link:         notification.link,
+                        notification: raw_notification.document.to_s,
+                        read:         false )
       end
     end
   end
@@ -48,6 +48,10 @@ class Article < ActiveRecord::Base
   end
 
   def read!
-    self.update_attribute(:read, 1)
+    self.update_attribute(:read, true)
+  end
+
+  def self.not_found_for_notification(notification)
+    Article.where(:link => notification.link, :published_at => notification.published_at).empty?
   end
 end

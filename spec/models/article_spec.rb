@@ -111,7 +111,17 @@ describe Article do
       article.read!
       article.read.should be_true
     end
-
   end
 
+  context '#not_found_for_notification' do
+    it "should return true if article is not found" do
+      n = Notification.new(@raw_notification)
+      Article.not_found_for_notification(n).should be_true
+    end
+    it "should return false if article is found" do
+      n = Notification.new(@raw_notification)
+      Article.create_from_raw_notification(@raw_notification)
+      Article.not_found_for_notification(n).should be_false
+    end
+  end
 end
