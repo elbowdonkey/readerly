@@ -24,7 +24,7 @@ class Notification
   end
 
   def published_at
-    Date.parse(entry.css("published").children.first.to_s).to_datetime.in_time_zone(Time.zone) rescue nil
+    DateTime.parse(entry.css("published").children.first.to_s).in_time_zone(Time.zone) rescue nil
   end
 
   # feed-related
