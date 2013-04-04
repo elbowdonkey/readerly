@@ -2,18 +2,21 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
+# as soon the document is ready, 
+# queue the human.log message
 $ ->
+  window.scrollPosition = 0
   if $("article").not(".read").size() > 1
     if bacon.isMobile() == true
-      $('aside').css("margin-top", "0")
       humane.log "Swipe → to see the next article"
     else
       humane.log "Press 'space' to see the next article"
-  window.scrollPosition = 0
 
+# after all content is loaded, do this
 $(window).load ->
   $("article").first().show()
   $("#loader").hide()
+  @resizeArticleImages()
   if bacon.isMobile() == false
     Mousetrap.unpause();
 
@@ -62,4 +65,9 @@ $(window).load ->
     if image.width() >= 500
       image.width "640px"
       image.height "auto"
+    
+    if image.width() >= 100
+      image.css("display", "block")
+      image.css("margin", " 0 auto auto")
+
     return true
