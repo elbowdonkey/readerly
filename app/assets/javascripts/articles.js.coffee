@@ -3,7 +3,6 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $ ->
-  $("article").hide()
   if $("article").not(".read").size() > 1
     if bacon.isMobile() == true
       $('aside').css("margin-top", "0")
