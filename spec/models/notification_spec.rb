@@ -58,7 +58,7 @@ describe Notification do
 
    context ".published_at" do
     it "should return the article's published_at date" do
-      @notification.published_at.should eq(DateTime.parse("2013-03-23 00:00:00 UTC").in_time_zone(Time.zone))
+      @notification.published_at.should eq(DateTime.parse("2013-03-23T22:44:20Z").in_time_zone(Time.zone))
     end
 
     it "should return nil if no published_at date is found" do
