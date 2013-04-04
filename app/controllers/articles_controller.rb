@@ -5,7 +5,7 @@ class ArticlesController < ApplicationController
   # thru your fwd.fw account. If you don't want to do it, generate
   # some articles and feeds or ask me for a dump --caffo
   #
-  # Reader::Application::Configuration['feeds'].each do |f|
+  # APP_CONFIG['feeds'].each do |f|
   #   Reader::Application::Superfeedr.subscribe(f)
   # end
 
