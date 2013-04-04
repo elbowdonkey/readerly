@@ -16,13 +16,14 @@ Mousetrap.bind(['space', 'j'], function(e){
   e.preventDefault();
   $.scrollTo("+=200px");
 
-  if (document.body.scrollTop == window.scrollPosition) {
-    window.scrollPosition = 0;
-    $.scrollTo(0);
-    nextArticle();
-  }
-
-  window.scrollPosition = document.body.scrollTop;
+  // using setTimeout to ensure safari reacts to the scroll
+  setTimeout(function() {
+    if (document.body.scrollTop == window.scrollPosition || document.body.scrollTop < 10) { 
+      window.scrollPosition = 0;
+      $.scrollTo(0);
+      nextArticle(); 
+    } else{ window.scrollPosition = document.body.scrollTop; }
+  }, 10);
 });
 
 Mousetrap.bind('1', function(){
