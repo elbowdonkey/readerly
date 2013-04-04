@@ -37,6 +37,7 @@ $(window).load ->
     $("article").not(".read").first().addClass "seen"
     $("article").not(".read").first().addClass "read"
     $("article").not(".read").first().show()
+    @resizeArticleImages()
 
     # mark as read
     $.get('/read/'+current_article)
@@ -53,3 +54,12 @@ $(window).load ->
 @openCurrentLink = ->
   url = $("article").not(".read").first().find('h2 a').attr('href')
   window.open(url, '_blank');
+
+@resizeArticleImages = ->
+  $("article").not(".read").first().find("img").each ->
+    image = $(this)
+    console.log image.width() 
+    if image.width() >= 500
+      image.width "640px"
+      image.height "auto"
+    return true
