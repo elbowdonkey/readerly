@@ -15,19 +15,21 @@ Mousetrap.bind(['shift+space', 'shift+j'], function(e){
 Mousetrap.bind(['space', 'j'], function(e){
   e.preventDefault();
   $.scrollTo("+=200px");
-
-  // using setTimeout to ensure safari reacts to the scroll
+  
   setTimeout(function() {
-    if (document.body.scrollTop == window.scrollPosition || document.body.scrollTop < 10) { 
+    current_position = $(window).scrollTop();
+    // alert("before:" + current_position + ":" + window.scrollPosition);
+    if (current_position == window.scrollPosition || current_position < 10) { 
       window.scrollPosition = 0;
       $.scrollTo(0);
       nextArticle(); 
-    } else{ window.scrollPosition = document.body.scrollTop; }
+    } else{ window.scrollPosition = current_position; }    
+    // alert("after:" + current_position + ":" + window.scrollPosition);
   }, 10);
 });
 
 Mousetrap.bind('1', function(){
   openCurrentLink();
-})
+});
 
 Mousetrap.pause();
