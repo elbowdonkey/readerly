@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
-# as soon the document is ready, 
+# as soon the document is ready,
 # queue the human.log message
 $ ->
   window.scrollPosition = 0
@@ -25,7 +25,7 @@ $(window).load ->
     window.scrollPosition = 0
     $.scrollTo(0)
     current_article = $("article").not(".read").first().attr('id')
-    
+
     # show message if required
     if $("article.read").size() is 1 and (typeof window.done_helping is "undefined")
       if bacon.isMobile() == true
@@ -61,11 +61,11 @@ $(window).load ->
 @resizeArticleImages = ->
   $("article").not(".read").first().find("img").each ->
     image = $(this)
-    console.log image.width() 
+    console.log image.width()
     if image.width() >= 500
-      image.width "640px"
+      image.width "100%"
       image.height "auto"
-    
+
     if image.width() >= 100
       image.css("display", "block")
       image.css("margin", " 0 auto auto")
