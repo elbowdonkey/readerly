@@ -41,4 +41,5 @@ RSpec.configure do |config|
 
   config.include FactoryGirl::Syntax::Methods
   config.include NotificationHelpers
+  config.include ControllerHelpers, :type => :controller
 end
