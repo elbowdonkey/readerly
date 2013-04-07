@@ -12,7 +12,7 @@ end
 
 APP_CONFIG = YAML.load_file(File.expand_path('../config.yml', __FILE__))
 
-module Reader
+module Readerly
   class Application < Rails::Application
     config.encoding                                     = "utf-8"
     config.filter_parameters                            += [:password]

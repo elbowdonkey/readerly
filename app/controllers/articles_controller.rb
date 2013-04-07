@@ -6,7 +6,7 @@ class ArticlesController < ApplicationController
   # some articles and feeds or ask me for a dump --caffo
   #
   # APP_CONFIG['feeds'].each do |f|
-  #   Reader::Application::Superfeedr.subscribe(f)
+  #   Readerly::Application::Superfeedr.subscribe(f)
   # end
 
   def index
