@@ -22,9 +22,15 @@ describe Notification do
     it "should return the article link" do
       @notification.link.should eq("http://www.reddit.com/r/aww/comments/1avt3w/dat_tongue/")
     end
+
     it "should return nil if no link is found" do
       notification = Notification.new([])
       notification.link.should be_nil
+    end
+
+    it "should return the canonical link if one exists" do
+      notification = Notification.new(@raw_notification, 1)
+      notification.link.should eq("http://www.reddit.com/r/nhl/comments/1avt3v/justin_abdelkaders_hat_trick_helps_detroit_stop/canonical")
     end
   end
 

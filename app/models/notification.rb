@@ -4,7 +4,7 @@ class Notification
     @entry_index = entry_index
   end
 
-  # article-related
+  # Article-related methods
 
   def title
     entry.css("title").children.first.to_s rescue nil
@@ -27,7 +27,7 @@ class Notification
     DateTime.parse(entry.css("published").children.first.to_s).in_time_zone(Time.zone) rescue nil
   end
 
-  # feed-related
+  # Feed-related methods
 
   def feed_name
     @content.css("title").children.first.to_s rescue nil
@@ -37,7 +37,8 @@ class Notification
     @content.css("link[type='text/html']").first.attr("href") rescue nil
   end
 
-  # helpers
+  # Helpers
+
   def entry
     @content.css("entry")[@entry_index]
   end
