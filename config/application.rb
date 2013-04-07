@@ -14,11 +14,13 @@ APP_CONFIG = YAML.load_file(File.expand_path('../config.yml', __FILE__))
 
 module Reader
   class Application < Rails::Application
-    config.encoding                                    = "utf-8"
-    config.filter_parameters                           += [:password]
-    config.active_support.escape_html_entities_in_json = true
-    config.active_record.whitelist_attributes          = true
-    config.assets.enabled                              = true
-    config.assets.version                              = '1.0'
+    config.encoding                                     = "utf-8"
+    config.filter_parameters                            += [:password]
+    config.active_support.escape_html_entities_in_json  = true
+    config.active_record.whitelist_attributes           = true
+    config.assets.enabled                               = true
+    config.assets.version                               = '1.0'
+    config.i18n.default_locale                          = :en
+    config.i18n.locale                                  = :en
   end
 end
