@@ -10,8 +10,6 @@ if defined?(Bundler)
   Bundler.require(*Rails.groups(:assets => %w(development test)))
 end
 
-APP_CONFIG = YAML.load_file(File.expand_path('../config.yml', __FILE__))
-
 module Readerly
   class Application < Rails::Application
     config.encoding                                     = "utf-8"
