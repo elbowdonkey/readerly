@@ -26,5 +26,4 @@ capybara-*.html
 /spec/tmp/*
 
 # Readerly config files
-/config/config.yml
 /config/database.yml
