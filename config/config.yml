@@ -1,0 +1,35 @@
+general:
+  hostname: caffo-reader.herokuapp.com
+  username: caffo
+  password: caffocaffo21
+
+superfeedr:
+  username: zenburn
+  password: arcana333
+
+feeds:
+  - http://beautifulpixels.com/feed/
+  - http://blog.instapaper.com/rss
+  - http://chneukirchen.org/trivium/index.atom
+  - http://daringfireball.net/index.xml
+  - http://dayoftheshirt.com/rss.xml
+  - http://dragonchasers.com/feed/
+  - http://feeds.feedburner.com/AppSites
+  - http://feeds.feedburner.com/blogdoiphone/posts/
+  - http://feeds.feedburner.com/ToboldsBlog
+  - http://gostosa.tumblr.com/rss
+  - http://kaliyuga.org/rss
+  - http://minimalmac.com/rss
+  - http://objetosdedesejo.com/feed/
+  - http://onethingwell.org/rss
+  - http://pessoal.zehfernando.com/feed/
+  - http://randomshopper.tumblr.com/rss
+  - http://tabletitans.com/feed
+  - http://tagn.wordpress.com/feed/
+  - http://tinysubversions.com/feed/
+  - http://usesthis.com/feed/
+  - http://feeds.feedburner.com/flickr/nRNi
+  - http://www.marco.org/rss
+  - http://www.postsecret.com/feeds/posts/default?alt=rss
+  - http://www.rockpapershotgun.com/feed/
+  - https://github.com/fjolnir.atom
