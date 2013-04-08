@@ -58,7 +58,7 @@ $(window).load ->
   window.open(url, '_blank');
 
 @resizeArticleImages = ->
-  $("article").not(".read").first().find("img").eaJch ->
+  $("article").not(".read").first().find("img").each ->
     image = $(this)
     console.log image.width()
     if image.width() >= 500
