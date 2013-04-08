@@ -75,12 +75,9 @@ $(window).load ->
   target = $("article").not(".read").first()
   target.show()
 
-  if $("article").not(".read").first().hasClass('seen')
-    target.find('.container').show()
-  else
-    target.find('.container').first().show()
+  unless $("article").not(".read").first().hasClass('seen')
     setTimeout ->
-      target.find('.container').last().animate({
+      target.find('.article-container').animate({
         opacity: "show", marginTop: "-=5px"}, 150)
     ,100
 

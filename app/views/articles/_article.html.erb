@@ -7,7 +7,7 @@
       </div>
     </div>
   </aside>
-  <div class="container">
+  <div class="container article-container">
     <h2 class="article-title"><%= link_to raw(article.title), article.link %></h2>
     <div class="article-body">
       <%= raw(HTMLEntities.new.decode(article.content)) %>
