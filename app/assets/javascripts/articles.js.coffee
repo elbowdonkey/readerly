@@ -77,6 +77,6 @@ $(window).load ->
     $("article").not(".read").first().find('.container').last().animate({
       opacity: "show",
       marginTop: "-=5px"
-    }, 150)
+    }, 200)
     @resizeArticleImages()
 
