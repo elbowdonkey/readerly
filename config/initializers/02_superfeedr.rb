@@ -5,5 +5,6 @@ superfeedr_config =  {
 }
 
 Rails.configuration.middleware.use Rack::Superfeedr, superfeedr_config do |superfeedr|
+    Superfeedr = superfeedr
     superfeedr.on_notification {|notification| Article.create_from_raw_notification(notification)}
 end
