@@ -72,11 +72,18 @@ $(window).load ->
     return true
 
 @showArticle = ->
-    $("article").not(".read").first().show()
-    $("article").not(".read").first().find('.container').first().show()
-    $("article").not(".read").first().find('.container').last().animate({
-      opacity: "show",
-      marginTop: "-=5px"
-    }, 200)
-    @resizeArticleImages()
+  target = $("article").not(".read").first()
+  target.show()
+
+  if $("article").not(".read").first().hasClass('seen')
+    target.find('.container').show()
+  else
+    target.find('.container').first().show()
+    setTimeout ->
+      target.find('.container').last().animate({
+        opacity: "show", marginTop: "-=5px"}, 150)
+    ,100
+
+  @resizeArticleImages()
+  return true
 
