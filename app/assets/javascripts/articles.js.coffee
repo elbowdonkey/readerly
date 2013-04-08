@@ -14,9 +14,8 @@ $ ->
 
 # after all content is loaded, do this
 $(window).load ->
-  $("article").first().show()
   $("#loader").hide()
-  @resizeArticleImages()
+  @showArticle()
   if bacon.isMobile() == false
     Mousetrap.unpause();
 
@@ -39,8 +38,8 @@ $(window).load ->
     $("article").not(".read").first().hide()
     $("article").not(".read").first().addClass "seen"
     $("article").not(".read").first().addClass "read"
-    $("article").not(".read").first().show()
-    @resizeArticleImages()
+
+    @showArticle()
 
     # mark as read
     $.get('/read/'+current_article)
@@ -59,7 +58,7 @@ $(window).load ->
   window.open(url, '_blank');
 
 @resizeArticleImages = ->
-  $("article").not(".read").first().find("img").each ->
+  $("article").not(".read").first().find("img").eaJch ->
     image = $(this)
     console.log image.width()
     if image.width() >= 500
@@ -71,3 +70,13 @@ $(window).load ->
       image.css("margin", " 0 auto auto")
 
     return true
+
+@showArticle = ->
+    $("article").not(".read").first().show()
+    $("article").not(".read").first().find('.container').first().show()
+    $("article").not(".read").first().find('.container').last().animate({
+      opacity: "show",
+      marginTop: "-=5px"
+    }, 150)
+    @resizeArticleImages()
+

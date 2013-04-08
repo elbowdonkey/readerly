@@ -25,6 +25,8 @@ article {
   @include outer-container;
 
   position: relative;
+  margin-top: 5px;
+  display:none;
 }
 
 .brand {
