@@ -1,4 +1,4 @@
-Mousetrap.bind(['ctrl+space', 'k'], function(e){
+Mousetrap.bind(['ctrl+space', 'k', 'shift+k'], function(e){
   e.preventDefault();
   window.scrollPosition = 0;
   $.scrollTo(0);
