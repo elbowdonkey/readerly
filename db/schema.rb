@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(:version => 20130408025442) do
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
     t.text     "notification"
-    t.boolean  "read"
+    t.boolean  "read",         :default => false
   end
 
   create_table "feeds", :force => true do |t|
