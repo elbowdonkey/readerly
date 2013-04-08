@@ -33,3 +33,4 @@ feeds:
   - http://www.postsecret.com/feeds/posts/default?alt=rss
   - http://www.rockpapershotgun.com/feed/
   - https://github.com/fjolnir.atom
+  - http://thebrief.io/news/feed
