@@ -5,8 +5,8 @@ class User < ActiveRecord::Base
   def check_subscriptions_using(feeds_from_config=APP_CONFIG['feeds'])
     to_unsubscribe, to_subscribe, updated_list = self.feed_list_diff(feeds_from_config)
 
-    to_unsubscribe.each {|f| Readerly::Application::Superfeedr.unsubscribe(f) }
-    to_subscribe.each   {|f| Readerly::Application::Superfeedr.subscribe(f)   }
+    to_unsubscribe.each {|f| puts "subscribing to #{f}"; Readerly::Application::Superfeedr.unsubscribe(f) }
+    to_subscribe.each   {|f| puts "unsubscribing to #{f}"; Readerly::Application::Superfeedr.subscribe(f)   }
 
     self.feeds = updated_list.reject{|f| !feeds_from_config.include?(f) && self.feeds.include?(f) }
   end
