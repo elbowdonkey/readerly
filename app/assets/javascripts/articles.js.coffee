@@ -75,7 +75,10 @@ $(window).load ->
   target = $("article").not(".read").first()
   target.show()
 
-  unless $("article").not(".read").first().hasClass('seen')
+  if $("article").not(".read").first().hasClass('seen') or bacon.isMobile() == true
+    target.find('.article-container').show()
+    window.resizeArticleImages()
+  else
     setTimeout ->
       target.find('.article-container').animate({
         opacity: "show", marginTop: "-=5px"}, {duration: 150, step: ->( window.resizeArticleImages()) })
