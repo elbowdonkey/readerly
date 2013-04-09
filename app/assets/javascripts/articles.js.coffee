@@ -50,7 +50,7 @@ $(window).load ->
   $.scrollTo(0)
   $("article").not(".read").first().hide()
   $("article.read").last().removeClass "read"
-  $("article").not(".read").first().show()
+  $("article").not(".read").first().show()  
   return true
 
 @openCurrentLink = ->
@@ -60,7 +60,7 @@ $(window).load ->
 @resizeArticleImages = ->
   $("article").not(".read").first().find("img").each ->
     image = $(this)
-    console.log image.width()
+
     if image.width() >= 500
       image.width "100%"
       image.height "auto"
@@ -69,7 +69,7 @@ $(window).load ->
       image.css("display", "block")
       image.css("margin", " 0 auto auto")
 
-    return true
+  return true
 
 @showArticle = ->
   target = $("article").not(".read").first()
@@ -78,9 +78,7 @@ $(window).load ->
   unless $("article").not(".read").first().hasClass('seen')
     setTimeout ->
       target.find('.article-container').animate({
-        opacity: "show", marginTop: "-=5px"}, 150)
+        opacity: "show", marginTop: "-=5px"}, {duration: 150, step: ->( window.resizeArticleImages()) })
     ,100
 
-  @resizeArticleImages()
   return true
-
