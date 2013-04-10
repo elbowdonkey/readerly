@@ -33,7 +33,7 @@ Mousetrap.bind('1', function(){
 });
 
 Mousetrap.bind('m', function(){
-  $.get('/article/read/?all=true');
+  $.get('/read/?all=true');
   window.location.href=window.location.href;
 });
 
