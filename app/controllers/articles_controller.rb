@@ -7,7 +7,8 @@ class ArticlesController < ApplicationController
   end
 
   def read
-    render :json => Article.find(params[:id]).read!
+    response = params[:all].present? ? Article.all.map(&:read!)  :  Article.find(params[:id]).read!
+    render :json => response
   end
 
   def subscribe

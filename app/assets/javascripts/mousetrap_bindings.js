@@ -32,4 +32,9 @@ Mousetrap.bind('1', function(){
   openCurrentLink();
 });
 
+Mousetrap.bind('m', function(){
+  $.get('/article/read/?all=true');
+  window.location.href=window.location.href;
+});
+
 Mousetrap.pause();
