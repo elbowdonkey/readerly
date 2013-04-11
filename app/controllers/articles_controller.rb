@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   before_filter :authenticate, :except => [:subscribe]
   before_filter :check_subscriptions, :only => [:index]
-
+  before_filter :delete_read_articles, :only => [:index]
   def index
     @articles = Article.where(:read => false).order("published_at ASC")
   end
@@ -19,5 +19,9 @@ class ArticlesController < ApplicationController
   def check_subscriptions
     user = User.first_or_create
     user.check_subscriptions! if user.dirty_feed_list?
+  end
+
+  def delete_read_articles
+    Article.where(:read => true).delete_all
   end
 end
