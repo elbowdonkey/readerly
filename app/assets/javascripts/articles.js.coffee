@@ -68,7 +68,9 @@ $(window).load ->
     if image.width() >= 100
       image.css("display", "block")
       image.css("margin", " 0 auto auto")
-
+    else
+      image.hide()
+      
   return true
 
 @showArticle = ->
