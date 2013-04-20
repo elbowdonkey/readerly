@@ -17,7 +17,6 @@ Module "Readerly.Article", (Article) ->
       $("article").not(".read").first().hide()
       $("article").not(".read").first().addClass "seen"
       $("article").not(".read").first().addClass "read"
-
       this.show()
 
       # mark as read
@@ -64,4 +63,5 @@ Module "Readerly.Article", (Article) ->
         image.css("margin", " 0 auto auto")
       else
         image.hide()
+
     return true
