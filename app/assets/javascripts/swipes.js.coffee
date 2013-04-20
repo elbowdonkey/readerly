@@ -7,7 +7,7 @@ $ ->
       verticalDistanceThreshold: 75
 
     $(document).on "swipeleft", (e) ->
-      previousArticle()
+      window.article.previous()
 
     $(document).on "swiperight", (e) ->
-      nextArticle()
+      window.article.next()
