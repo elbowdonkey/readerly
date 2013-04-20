@@ -1,15 +1,33 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// the compiled file.
-//
-// WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
-// GO AFTER THE REQUIRES BELOW.
-//
 //= require jquery
 //= require jquery_ujs
+//= require module
 //= require_tree .
+
+// as soon the dom is ready, queue the 
+// humanize messages
+$(function() {
+  window.scrollPosition = 0;
+  if ($("article").not(".read").size() > 1) {
+    if (bacon.isMobile() === true) {
+      return humane.log("Swipe → to see the next article");
+    } else {
+      return humane.log("Press 'space' to see the next article");
+    }
+  }
+});
+
+// when all articles are loaded,
+// initialize the application
+$(window).load(function() {
+  app = Readerly.Application();
+  if (bacon.isMobile() === false) { Mousetrap.unpause(); }
+});
+
+
+Module("Readerly.Application", function(Application) {
+  Application.fn.initialize = function() {
+    window.article = Readerly.Article();
+    window.article.next();
+    $("#loader").hide();
+  };
+});
