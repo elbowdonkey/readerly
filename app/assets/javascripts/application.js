@@ -3,7 +3,7 @@
 //= require module
 //= require_tree .
 
-// as soon the dom is ready, queue the 
+// as soon the dom is ready, queue the
 // humanize messages
 $(function() {
   window.scrollPosition = 0;
@@ -27,7 +27,7 @@ $(window).load(function() {
 Module("Readerly.Application", function(Application) {
   Application.fn.initialize = function() {
     window.article = Readerly.Article();
-    window.article.next();
+    window.article.show();
     $("#loader").hide();
   };
 });
