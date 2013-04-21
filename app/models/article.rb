@@ -30,9 +30,9 @@ class Article < ActiveRecord::Base
 
       notification = Notification.new(raw_notification, index)
       feed         = Feed.for_notification(notification)
-      
+
       if Article.not_found_for_notification(notification)
-        Article.create( feed:         feed, 
+        Article.create( feed:         feed,
                         title:        notification.title,
                         published_at: notification.published_at,
                         content:      notification.content,

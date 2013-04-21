@@ -26,4 +26,9 @@ class User < ActiveRecord::Base
 
     return to_unsubscribe, to_subscribe, updated_list
   end
+
+  def self.setup!
+    user = User.first_or_create
+    user.check_subscriptions! if user.dirty_feed_list?
+  end
 end
