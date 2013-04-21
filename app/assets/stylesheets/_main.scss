@@ -18,14 +18,14 @@ article {
 }
 
 ::-moz-selection {
-  background: darken($background-color, 12%);
-  color: #fff;
+  background: $title-color;
+  color: white;
   text-shadow: none;
 }
 
 ::selection {
-  background: darken($background-color, 12%);
-  color: #fff;
+  background: $title-color;
+  color: white;
   text-shadow: none;
 }
 
@@ -143,7 +143,6 @@ article {
   font-size: 45px;
   text-align: center;
   color: $no-articles-title-color;
-  text-shadow: 1px 4px 6px $background-color, 0 0 0 #000, 1px 4px 6px $background-color;
   line-height: 1;
   letter-spacing: -1px;
 }
