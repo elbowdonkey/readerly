@@ -3,6 +3,7 @@
    ========================================================================== */
 
 html, body {
+  height: 100%;
   background-color: $background-color;
 }
 
@@ -27,14 +28,14 @@ article {
 }
 
 .article-container {
-  margin-top: 5px;
-  display:none;
+  padding-top: $feed-bar-height;
+  display: none;
 }
 
 
 .brand {
   position: absolute;
-  top: -40px;
+  top: 0;
   right: 0;
   padding: 7px 10px;
   background: #494949;
@@ -46,12 +47,13 @@ article {
   font-weight: 300;
 }
 
-.article-feed {
+.article-feed-bar {
+  margin-bottom: -$feed-bar-height;
+  height: $feed-bar-height;
   background: $feed-background-color;
-  padding-top: 40px;
-  padding-bottom: 12px;
-  // border-bottom: 1px solid #dededc;
-  a {
+  .article-feed-link a {
+    display: inline-block;
+    margin-top: 30px;
     font-family: $title-font-family;
     font-weight: 700;
     font-size: 12px;
@@ -81,6 +83,40 @@ article {
   line-height: 1.618;
 }
 
+#empty {
+  height: 100%;
+  #no-articles {
+    display: table;
+    height: 100%;
+    padding-top: $feed-bar-height;
+  }
+}
+
+.no-articles-message {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.no-articles-title {
+  margin: 0;
+  font-family: $title-font-family;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: $no-articles-title-color;
+  text-shadow: 1px 4px 6px $background-color, 0 0 0 #000, 1px 4px 6px $background-color;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.no-articles-body {
+  @extend .article-body;
+  margin: 1em 0 0 0;
+  color: $no-articles-body-color;
+  text-align: center;
+}
+
 .seen {
   a, p {
     color: #666;
@@ -92,9 +128,14 @@ article {
   }
 }
 
-#empty {
-  .article-body { 
-    text-align: center;
-    margin-bottom: 50px;
-  }
+::-moz-selection {
+  background: darken($background-color, 12%);
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: darken($background-color, 12%);
+  color: #fff;
+  text-shadow: none;
 }
