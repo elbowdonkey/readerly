@@ -28,7 +28,7 @@ Module "Readerly.Article", (Article) ->
     $.scrollTo(0)
     $("article").not(".read").first().hide()
     $("article.read").last().removeClass "read"
-    $("article").not(".read").first().show()  
+    $("article").not(".read").first().show()
     return true
 
   Article.fn.show = ->
@@ -37,7 +37,7 @@ Module "Readerly.Article", (Article) ->
 
     if $("article").not(".read").first().hasClass('seen') or bacon.isMobile() == true
       target.find('.article-container').show()
-      window.resizeArticleImages()
+      window.article.prepare()
     else
       setTimeout ->
         target.find('.article-container').animate({
@@ -50,11 +50,11 @@ Module "Readerly.Article", (Article) ->
     url = $("article").not(".read").first().find('h2 a').attr('href')
     window.open(url, '_blank');
 
-  Article.fn.prepare = -> 
+  Article.fn.prepare = ->
     $("article").not(".read").first().find("img").each ->
       image = $(this)
 
-      if image.width() >= 500
+      if image.width() >= 400
         image.width "100%"
         image.height "auto"
 

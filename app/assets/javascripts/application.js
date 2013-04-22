@@ -19,6 +19,7 @@ $(function() {
 // when all articles are loaded,
 // initialize the application
 $(window).load(function() {
+  $("#loader").remove();
   app = Readerly.Application();
   if (bacon.isMobile() === false) { Mousetrap.unpause(); }
 });
@@ -28,6 +29,5 @@ Module("Readerly.Application", function(Application) {
   Application.fn.initialize = function() {
     window.article = Readerly.Article();
     window.article.show();
-    $("#loader").hide();
   };
 });
