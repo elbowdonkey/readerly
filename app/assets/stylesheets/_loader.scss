@@ -1,14 +1,21 @@
 #loader {
   @include fill-parent;
+  height: 100%;
   text-align: center;
-  padding-top: 100px;
-  h2 {
-    font-family: $title-font-family;
-    background: $secondary-bg-color;
-    text-transform: uppercase;
-    margin: 0 auto auto;
-    width: 250px;
-    font-weight: 300;
-    padding: 5px;
-  }
+  vertical-align: middle;
+  display: table;
+
+  #loader-message {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    h2 {
+      font-family: $title-font-family;
+      color: $no-articles-title-color;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 45px;
+     }
+   }
 }
