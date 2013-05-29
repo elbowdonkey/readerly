@@ -1,6 +1,6 @@
 Readerly::Application.routes.draw do
-  match 'sperfeedr/feed/:id' => "articles#subscribe"
-  match 'read'     => 'articles#read', :as => "read"
-  match 'read/:id' => 'articles#read', :as => "read"
+  get 'superfeedr/feed/:id' => "articles#subscribe"
+  get 'read/all'     => 'articles#read_all', :as => "read_all"
+  get 'read/:id' => 'articles#read', :as => "read"
   root :to => 'articles#index'
 end
