@@ -8,7 +8,12 @@ class ArticlesController < ApplicationController
   end
 
   def read
-    response = params[:all].present? ? Article.all.map(&:read!)  :  Article.find(params[:id]).read!
+    response = Article.find(params[:id]).read!
+    render :json => response
+  end
+
+  def read_all
+    response = Article.all.map(&:read!)
     render :json => response
   end
 
