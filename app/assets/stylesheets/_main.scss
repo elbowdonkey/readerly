@@ -153,3 +153,49 @@ article {
   color: $no-articles-body-color;
   text-align: center;
 }
+
+/*
+ * Help
+ */
+
+#help {
+  position: absolute;
+  bottom: 0;
+  // left: em(10);
+  // right: em(10);
+  max-width: 740px;
+  height: 80px;
+  padding: 10px;
+  // background: transparentize(lighten(desaturate($title-color, 40%), 20%), 0.6);
+  background: #bfdfd9;
+  font-size: 0.9em;
+  dl {
+    margin: 0;
+  }
+  dt {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: lighten(black, 30%);
+  }
+  dd {
+    margin-left: 0;
+    margin-bottom: 5px;
+    color: lighten(black, 30%);
+  }
+}
+
+kbd {
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  @include box-shadow(1px 2px 2px #ddd);
+  background-color: #f9f9f9;
+  @include background-image(linear-gradient(top, #eee, #f9f9f9, #eee));
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+}
+
+.help-item {
+  float: left;
+  width: 20%;
+}
