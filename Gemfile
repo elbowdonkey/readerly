@@ -1,24 +1,24 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '~> 4.0.0.rc1'
+gem 'activeresource', "~> 4.0.0.beta1", :require => 'active_resource'
+
 gem 'rack-superfeedr'
 gem 'htmlentities'
 gem 'neat'
 gem 'jquery-rails'
 
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
-end
+gem 'sass-rails',   '~> 4.0.0.rc1'
+gem 'coffee-rails', '~> 4.0.0.rc1'
+gem 'uglifier', '>= 1.3.0'
+
+gem 'protected_attributes'
 
 group :test, :development do
   gem 'rb-inotify', '~> 0.8.8', :require => false
   gem 'rb-fsevent', :require => false
-  gem 'guard-rspec'
-  gem 'guard-livereload'
   gem 'terminal-notifier-guard'
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 2.14.0.rc1'
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'capybara-webkit'
@@ -28,7 +28,7 @@ group :test, :development do
 end
 
 group :development do
-  gem 'mailcatcher'
+  gem 'sqlite3'
   gem 'pry'
   gem 'pry-remote'
   gem 'pry-nav'
