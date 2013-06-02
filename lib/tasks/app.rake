@@ -6,7 +6,10 @@ namespace :app do
     puts "** Initialization completed"
   end
 
-  task :setup do
+  task :deploy do
+    system("git add config/*")
+    system("git ci -m 'prepare for deployment'")
+    system("git push heroku master")
     system("heroku run rake db:migrate")
     system("heroku run bundle exec rails runner 'User.setup!'")
     puts "** Setup completed"
