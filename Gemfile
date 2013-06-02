@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 gem 'rails', '~> 4.0.0.rc1'
 gem 'activeresource', "~> 4.0.0.beta1", :require => 'active_resource'
 
@@ -43,4 +45,6 @@ group :production do
   gem 'pg'
   gem 'thin'
   gem 'newrelic_rpm'
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
