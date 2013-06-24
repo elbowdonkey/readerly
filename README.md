@@ -52,7 +52,7 @@ cd readerly
 heroku create <my-app-name>
 ```
 
-4. Install gems and Initialize the application 
+4. Install gems and Initialize the application
 ```
 bundle install
 rake app:init
@@ -67,7 +67,7 @@ general:
 ```
 
 6. Add your Superfeedr account to config.yml (Create your account [here][2] if you don't have one)
-``` 
+```
 superfeedr:
   username: username_superfeedr
   password: password_superfeedr
@@ -98,4 +98,6 @@ Readerly works in a different (and simpler) way from the other feed readers you 
 [1]: https://toolbelt.heroku.com/
 [2]: http://superfeedr.com/subscriber
 
+## License
 
+MIT License. Copyright 2013 Chapelaria. http://chapelaria.co
