@@ -37,3 +37,10 @@ Module("Readerly.Application", function(Application) {
     window.article.show();
   };
 });
+
+// animate help layer
+$(function() {
+  $('#help-icon').click(function() {
+    $('#help').slideToggle(300, "swing");
+  });
+});
