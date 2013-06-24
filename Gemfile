@@ -8,7 +8,7 @@ gem 'activeresource', "~> 4.0.0.beta1", :require => 'active_resource'
 gem 'rack-superfeedr'
 gem 'htmlentities'
 gem 'neat'
-gem 'jquery-rails', '~> 2.3'
+gem 'jquery-rails', '~> 2.2.2'
 
 gem 'sass-rails',   '~> 4.0.0.rc2'
 gem 'coffee-rails', '~> 4.0.0.rc2'
