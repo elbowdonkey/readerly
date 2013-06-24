@@ -6,11 +6,11 @@ Most minimalist feed reader ever made.
 
 ### Features
 
-* Self-hosted, deployable anywhere
-* River of news style - no counts, no sidebars with feeds, nothing
+* Self-hosted, deployable anywhere, Heroku-friendly
+* River of news style -- no counts, no sidebars with feeds, nothing
 * Typographic design
 * Keyboard control
-* No background jobs (using PubSubHubbub)
+* No background jobs (using PubSubHubbub via Superfeedr)
 
 ### Opinionated definitions
 
@@ -29,10 +29,10 @@ Most minimalist feed reader ever made.
 
 ## Technologies
 
-* Rails 3.x
+* Rails 4
 * Superfeedr through rack-superfeedr (https://github.com/superfeedr/rack-superfeedr)
 * Any SQL database
 
 ## Requirements
 
-* SuperFeedr account
+* Superfeedr account (free up to 10k monthly notifications)
