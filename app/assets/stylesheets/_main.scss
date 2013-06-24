@@ -175,6 +175,7 @@ kbd {
   bottom: 15px;
   width: 20px;
   height: 20px;
+  cursor: pointer;
   img {
     width: 100%;
   }
@@ -186,11 +187,11 @@ kbd {
   left: 50%;
   bottom: 0;
   height: 80px;
-  width: $max-width;
+  width: 640px;
   padding: 10px;
-  margin-left: -$max-width / 2;
+  margin-left: -320px;
   // background: transparentize(lighten(desaturate($title-color, 40%), 20%), 0.6);
-  background: #bfdfd9;
+  background: $feed-background-color;
   font-size: 0.9em;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
