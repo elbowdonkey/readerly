@@ -1,5 +1,11 @@
 //= require jquery
 //= require jquery_ujs
+//= require jquery.mobile.custom.min
+//= require jquery.scrollTo.min
+//= require modernizr.custom.98349
+//= require mousetrap.min
+//= require humane.js
+//= require bacon.min.js
 //= require module
 //= require_tree .
 
