@@ -27,7 +27,9 @@ $(function() {
 $(window).load(function() {
   $("#loader").remove();
   app = Readerly.Application();
-  if (bacon.isMobile() === false) { Mousetrap.unpause(); }
+  if (bacon.isMobile() === false) {
+    Mousetrap.unpause();
+  }
 });
 
 
@@ -35,6 +37,9 @@ Module("Readerly.Application", function(Application) {
   Application.fn.initialize = function() {
     window.article = Readerly.Article();
     window.article.show();
+    if (bacon.isMobile() === false) {
+      $('#help-icon').show();
+    }
   };
 });
 
