@@ -11,7 +11,7 @@ namespace :app do
     system("git ci -m 'prepare for deployment'")
     system("git push heroku master")
     system("heroku run rake db:migrate")
-    system("heroku run bundle exec rails runner 'User.setup!'")
+    system("echo 'User.setup!;exit' | heroku run console")
     puts "** Setup completed"
   end
 end
