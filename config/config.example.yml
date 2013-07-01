@@ -1,0 +1,20 @@
+general:
+  hostname: <your-app-name>.herokuapp.com
+  username: foo
+  password: bar
+
+superfeedr:
+  username: username
+  password: password
+
+feeds:
+   - http://feeds.boingboing.net/boingboing/iBag
+   - http://feeds.gawker.com/lifehacker/full
+   - http://www.polygon.com/rss/index.xml
+   - http://www.theverge.com/rss/index.xml
+   - http://rss.slashdot.org/Slashdot/slashdot
+   - http://feeds.gawker.com/kotaku/full
+   - http://feeds.gawker.com/gizmodo/full
+   - http://feeds.gawker.com/io9/full
+   - http://wow.joystiq.com/feeds/
+   - http://feeds.mashable.com/Mashable
