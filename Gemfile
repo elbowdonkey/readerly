@@ -2,16 +2,16 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'rails', '~> 4.0.0.rc2'
-gem 'activeresource', "~> 4.0.0.beta1", :require => 'active_resource'
+gem 'rails', '~> 4.0.0'
+gem 'activeresource', '~> 4.0.0', :require => 'active_resource'
 
 gem 'rack-superfeedr'
 gem 'htmlentities'
 gem 'neat'
 gem 'jquery-rails', '~> 2.2.2'
 
-gem 'sass-rails',   '~> 4.0.0.rc2'
-gem 'coffee-rails', '~> 4.0.0.rc2'
+gem 'sass-rails',   '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'protected_attributes'
