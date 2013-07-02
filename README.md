@@ -43,7 +43,7 @@ Most minimalist feed reader ever made.
 
 2. Clone the Readerly repo
 ```
-git clone git@github.com:caffo/readerly.git
+git clone git@github.com:chapelaria/readerly.git
 cd readerly
 ```
 
