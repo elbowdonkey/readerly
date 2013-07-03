@@ -8,7 +8,7 @@ Module "Readerly.Article", (Article) ->
       # show message if required
       if $("article.read").size() is 1 and (typeof window.done_helping is "undefined")
         if bacon.isMobile() == true
-          humane.log "Swipe ← to get back to last one"
+          humane.log "Swipe → to get back to last one"
         else
           humane.log "Press 'ctrl + space' to get back to last one"
 

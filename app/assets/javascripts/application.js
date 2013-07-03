@@ -15,7 +15,7 @@ $(function() {
   window.scrollPosition = 0;
   if ($("article").not(".read").size() > 1) {
     if (bacon.isMobile() === true) {
-      return humane.log("Swipe → to see the next article");
+      return humane.log("Swipe ← to see the next article");
     } else {
       return humane.log("Press 'space' to see the next article");
     }
