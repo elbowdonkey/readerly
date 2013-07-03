@@ -2,8 +2,6 @@
 
 Most minimalist feed reader ever made.
 
-## Version 0.1 Alpha
-
 ### Features
 
 * Self-hosted, deployable anywhere, Heroku-friendly
@@ -11,6 +9,7 @@ Most minimalist feed reader ever made.
 * Typographic design
 * Keyboard control
 * No background jobs (using PubSubHubbub via Superfeedr)
+* Works on mobile devices
 
 ### Opinionated definitions
 
