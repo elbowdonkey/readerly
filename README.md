@@ -41,10 +41,11 @@ Most minimalist feed reader ever made.
 
 1. Sign up at Heroku and install [Heroku Toolbelt][1]
 
-2. Clone the Readerly repo
+2. Download and uncompress the latest release found in the [releases page][3]
 ```
-git clone git@github.com:chapelaria/readerly.git
-cd readerly
+wget https://github.com/chapelaria/readerly/archive/0.1.tar.gz
+tar vfzx 0.1.tar.gz
+cd readerly-0.1
 ```
 
 3. Create a new Heroku app with a name that identifies it as yours
@@ -97,6 +98,7 @@ Readerly works in a different (and simpler) way from the other feed readers you 
 
 [1]: https://toolbelt.heroku.com/
 [2]: http://superfeedr.com/subscriber
+[3]: https://github.com/chapelaria/readerly/releases
 
 ## License
 
